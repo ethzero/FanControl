@@ -253,7 +253,7 @@
               "LoadTemperature": 40.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
-              "Name": "AIO Liquid Temp - Auto",
+              "Name": "AIO Liquid - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
                 "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -316,7 +316,7 @@
               "LoadTemperature": 40.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
-              "Name": "AIO Liquid Temp - Auto",
+              "Name": "AIO Liquid - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
                 "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -350,7 +350,7 @@
               "LoadTemperature": 85.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
-              "Name": "PCH Temp - Auto",
+              "Name": "PCH - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
                 "Identifier": "/lpc/nct6687d/temperature/3",
@@ -383,86 +383,18 @@
               "SelectedFanCurves": [
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
+                  "IdleTemperature": 70.0,
                   "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
+                  "LoadTemperature": 85.0,
+                  "MaxFanSpeed": 80,
                   "MinFanSpeed": 0,
-                  "Name": "SSD Corsair MP600 [M2_1] - Auto",
+                  "Name": "PCH - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+                    "Identifier": "/lpc/nct6687d/temperature/3",
                     "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+                    "Name": "PCH",
+                    "NickName": "PCH"
                   },
                   "Step": 2.0
                 }
@@ -505,7 +437,7 @@
               "LoadTemperature": 40.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
-              "Name": "AIO Liquid Temp - Auto",
+              "Name": "AIO Liquid - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
                 "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -539,7 +471,7 @@
               "LoadTemperature": 85.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
-              "Name": "PCH Temp - Auto",
+              "Name": "PCH - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
                 "Identifier": "/lpc/nct6687d/temperature/3",
@@ -572,86 +504,18 @@
               "SelectedFanCurves": [
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
+                  "IdleTemperature": 70.0,
                   "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
+                  "LoadTemperature": 85.0,
+                  "MaxFanSpeed": 80,
                   "MinFanSpeed": 0,
-                  "Name": "SSD Corsair MP600 [M2_1] - Auto",
+                  "Name": "PCH - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+                    "Identifier": "/lpc/nct6687d/temperature/3",
                     "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+                    "Name": "PCH",
+                    "NickName": "PCH"
                   },
                   "Step": 2.0
                 }
@@ -694,7 +558,7 @@
               "LoadTemperature": 40.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
-              "Name": "AIO Liquid Temp - Auto",
+              "Name": "AIO Liquid - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
                 "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -728,7 +592,7 @@
               "LoadTemperature": 85.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
-              "Name": "PCH Temp - Auto",
+              "Name": "PCH - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
                 "Identifier": "/lpc/nct6687d/temperature/3",
@@ -761,86 +625,18 @@
               "SelectedFanCurves": [
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
+                  "IdleTemperature": 70.0,
                   "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
+                  "LoadTemperature": 85.0,
+                  "MaxFanSpeed": 80,
                   "MinFanSpeed": 0,
-                  "Name": "SSD Corsair MP600 [M2_1] - Auto",
+                  "Name": "PCH - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+                    "Identifier": "/lpc/nct6687d/temperature/3",
                     "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
-                  },
-                  "Step": 2.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 50.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 70.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
-                  "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
-                    "IsHidden": false,
-                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
-                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+                    "Name": "PCH",
+                    "NickName": "PCH"
                   },
                   "Step": 2.0
                 }
@@ -904,7 +700,7 @@
             "LoadTemperature": 40.0,
             "MaxFanSpeed": 80,
             "MinFanSpeed": 0,
-            "Name": "AIO Liquid Temp - Auto",
+            "Name": "AIO Liquid - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
               "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -938,7 +734,7 @@
             "LoadTemperature": 85.0,
             "MaxFanSpeed": 80,
             "MinFanSpeed": 0,
-            "Name": "PCH Temp - Auto",
+            "Name": "PCH - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
               "Identifier": "/lpc/nct6687d/temperature/3",
@@ -971,86 +767,18 @@
             "SelectedFanCurves": [
               {
                 "Deadband": 3.0,
-                "IdleTemperature": 50.0,
+                "IdleTemperature": 70.0,
                 "IsHidden": false,
-                "LoadTemperature": 70.0,
-                "MaxFanSpeed": 100,
+                "LoadTemperature": 85.0,
+                "MaxFanSpeed": 80,
                 "MinFanSpeed": 0,
-                "Name": "SSD Corsair MP600 [M2_1] - Auto",
+                "Name": "PCH - Auto",
                 "SelectedResponseTime": 2,
                 "SelectedTempSource": {
-                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+                  "Identifier": "/lpc/nct6687d/temperature/3",
                   "IsHidden": false,
-                  "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
-                  "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
-                },
-                "Step": 2.0
-              },
-              {
-                "Deadband": 3.0,
-                "IdleTemperature": 50.0,
-                "IsHidden": false,
-                "LoadTemperature": 70.0,
-                "MaxFanSpeed": 100,
-                "MinFanSpeed": 0,
-                "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
-                "SelectedResponseTime": 2,
-                "SelectedTempSource": {
-                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
-                  "IsHidden": false,
-                  "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
-                  "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
-                },
-                "Step": 2.0
-              },
-              {
-                "Deadband": 3.0,
-                "IdleTemperature": 50.0,
-                "IsHidden": false,
-                "LoadTemperature": 70.0,
-                "MaxFanSpeed": 100,
-                "MinFanSpeed": 0,
-                "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
-                "SelectedResponseTime": 2,
-                "SelectedTempSource": {
-                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
-                  "IsHidden": false,
-                  "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
-                  "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
-                },
-                "Step": 2.0
-              },
-              {
-                "Deadband": 3.0,
-                "IdleTemperature": 50.0,
-                "IsHidden": false,
-                "LoadTemperature": 70.0,
-                "MaxFanSpeed": 100,
-                "MinFanSpeed": 0,
-                "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
-                "SelectedResponseTime": 2,
-                "SelectedTempSource": {
-                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
-                  "IsHidden": false,
-                  "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
-                  "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
-                },
-                "Step": 2.0
-              },
-              {
-                "Deadband": 3.0,
-                "IdleTemperature": 50.0,
-                "IsHidden": false,
-                "LoadTemperature": 70.0,
-                "MaxFanSpeed": 100,
-                "MinFanSpeed": 0,
-                "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
-                "SelectedResponseTime": 2,
-                "SelectedTempSource": {
-                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
-                  "IsHidden": false,
-                  "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
-                  "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+                  "Name": "PCH",
+                  "NickName": "PCH"
                 },
                 "Step": 2.0
               }
@@ -1071,7 +799,7 @@
             "LoadTemperature": 40.0,
             "MaxFanSpeed": 80,
             "MinFanSpeed": 0,
-            "Name": "AIO Liquid Temp - Auto",
+            "Name": "AIO Liquid - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
               "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -1107,86 +835,18 @@
         "SelectedFanCurves": [
           {
             "Deadband": 3.0,
-            "IdleTemperature": 50.0,
+            "IdleTemperature": 70.0,
             "IsHidden": false,
-            "LoadTemperature": 70.0,
-            "MaxFanSpeed": 100,
+            "LoadTemperature": 85.0,
+            "MaxFanSpeed": 80,
             "MinFanSpeed": 0,
-            "Name": "SSD Corsair MP600 [M2_1] - Auto",
+            "Name": "PCH - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
-              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+              "Identifier": "/lpc/nct6687d/temperature/3",
               "IsHidden": false,
-              "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
-              "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
-            },
-            "Step": 2.0
-          },
-          {
-            "Deadband": 3.0,
-            "IdleTemperature": 50.0,
-            "IsHidden": false,
-            "LoadTemperature": 70.0,
-            "MaxFanSpeed": 100,
-            "MinFanSpeed": 0,
-            "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
-              "IsHidden": false,
-              "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
-              "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
-            },
-            "Step": 2.0
-          },
-          {
-            "Deadband": 3.0,
-            "IdleTemperature": 50.0,
-            "IsHidden": false,
-            "LoadTemperature": 70.0,
-            "MaxFanSpeed": 100,
-            "MinFanSpeed": 0,
-            "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
-              "IsHidden": false,
-              "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
-              "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
-            },
-            "Step": 2.0
-          },
-          {
-            "Deadband": 3.0,
-            "IdleTemperature": 50.0,
-            "IsHidden": false,
-            "LoadTemperature": 70.0,
-            "MaxFanSpeed": 100,
-            "MinFanSpeed": 0,
-            "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
-              "IsHidden": false,
-              "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
-              "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
-            },
-            "Step": 2.0
-          },
-          {
-            "Deadband": 3.0,
-            "IdleTemperature": 50.0,
-            "IsHidden": false,
-            "LoadTemperature": 70.0,
-            "MaxFanSpeed": 100,
-            "MinFanSpeed": 0,
-            "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
-              "IsHidden": false,
-              "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
-              "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+              "Name": "PCH",
+              "NickName": "PCH"
             },
             "Step": 2.0
           }
@@ -1200,7 +860,7 @@
         "LoadTemperature": 40.0,
         "MaxFanSpeed": 80,
         "MinFanSpeed": 0,
-        "Name": "AIO Liquid Temp - Auto",
+        "Name": "AIO Liquid - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
           "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -1234,7 +894,7 @@
         "LoadTemperature": 85.0,
         "MaxFanSpeed": 80,
         "MinFanSpeed": 0,
-        "Name": "PCH Temp - Auto",
+        "Name": "PCH - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
           "Identifier": "/lpc/nct6687d/temperature/3",
@@ -1258,91 +918,6 @@
           "IsHidden": false,
           "Name": "Core Average",
           "NickName": "Core Average"
-        },
-        "Step": 2.0
-      },
-      {
-        "Deadband": 3.0,
-        "IdleTemperature": 50.0,
-        "IsHidden": false,
-        "LoadTemperature": 70.0,
-        "MaxFanSpeed": 100,
-        "MinFanSpeed": 0,
-        "Name": "SSD Corsair MP600 [M2_1] - Auto",
-        "SelectedResponseTime": 2,
-        "SelectedTempSource": {
-          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
-          "IsHidden": false,
-          "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
-          "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
-        },
-        "Step": 2.0
-      },
-      {
-        "Deadband": 3.0,
-        "IdleTemperature": 50.0,
-        "IsHidden": false,
-        "LoadTemperature": 70.0,
-        "MaxFanSpeed": 100,
-        "MinFanSpeed": 0,
-        "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
-        "SelectedResponseTime": 2,
-        "SelectedTempSource": {
-          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
-          "IsHidden": false,
-          "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
-          "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
-        },
-        "Step": 2.0
-      },
-      {
-        "Deadband": 3.0,
-        "IdleTemperature": 50.0,
-        "IsHidden": false,
-        "LoadTemperature": 70.0,
-        "MaxFanSpeed": 100,
-        "MinFanSpeed": 0,
-        "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
-        "SelectedResponseTime": 2,
-        "SelectedTempSource": {
-          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
-          "IsHidden": false,
-          "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
-          "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
-        },
-        "Step": 2.0
-      },
-      {
-        "Deadband": 3.0,
-        "IdleTemperature": 50.0,
-        "IsHidden": false,
-        "LoadTemperature": 70.0,
-        "MaxFanSpeed": 100,
-        "MinFanSpeed": 0,
-        "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
-        "SelectedResponseTime": 2,
-        "SelectedTempSource": {
-          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
-          "IsHidden": false,
-          "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
-          "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
-        },
-        "Step": 2.0
-      },
-      {
-        "Deadband": 3.0,
-        "IdleTemperature": 50.0,
-        "IsHidden": false,
-        "LoadTemperature": 70.0,
-        "MaxFanSpeed": 100,
-        "MinFanSpeed": 0,
-        "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
-        "SelectedResponseTime": 2,
-        "SelectedTempSource": {
-          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
-          "IsHidden": false,
-          "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
-          "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
         },
         "Step": 2.0
       }
@@ -1475,6 +1050,6 @@
       "Enabled": true,
       "ZeroRPMOverride": false
     },
-    "SensorCount": 89
+    "SensorCount": 76
   }
 }
