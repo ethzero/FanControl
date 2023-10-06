@@ -191,6 +191,124 @@
         "SelectedOffset": 0,
         "SelectedStart": 48,
         "SelectedStop": 39
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "NzxtKrakenPlugin/pumpcontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Pump - Kraken",
+        "NickName": "Pump - Kraken",
+        "PairedFanSensor": {
+          "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10",
+          "IsHidden": false,
+          "Name": "Pump - Kraken",
+          "NickName": "Pump - Kraken"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "NzxtKrakenPlugin/fancontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Fan - Kraken",
+        "NickName": "Fan - Kraken",
+        "PairedFanSensor": {
+          "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
+          "IsHidden": false,
+          "Name": "Fan - Kraken",
+          "NickName": "Fan - Kraken"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "Lian Li/Controller_0 _Channel_0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Uni Controller #1 Ch. 1",
+        "NickName": "Uni Controller #1 Ch. 1",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "Lian Li/Controller_0 _Channel_1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Uni Controller #1 Ch. 2",
+        "NickName": "Uni Controller #1 Ch. 2",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "Lian Li/Controller_0 _Channel_2",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Uni Controller #1 Ch. 3",
+        "NickName": "Uni Controller #1 Ch. 3",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "Lian Li/Controller_0 _Channel_3",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "Uni Controller #1 Ch. 4",
+        "NickName": "Uni Controller #1 Ch. 4",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
       }
     ],
     "CustomSensors": [],
@@ -261,15 +379,51 @@
         "IsHidden": false,
         "Name": "Fan 2 - NVIDIA GeForce RTX 3080",
         "NickName": "Control 2 - NVIDIA GeForce RTX 3080"
+      },
+      {
+        "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "Name": "Pump - Kraken",
+        "NickName": "Pump - Kraken"
+      },
+      {
+        "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "Name": "Fan - Kraken",
+        "NickName": "Fan - Kraken"
+      },
+      {
+        "Identifier": "Lian Li/Controller_0 _Channel_0",
+        "IsHidden": false,
+        "Name": "Uni Controller #1 Ch. 1",
+        "NickName": "Uni Controller #1 Ch. 1"
+      },
+      {
+        "Identifier": "Lian Li/Controller_0 _Channel_1",
+        "IsHidden": false,
+        "Name": "Uni Controller #1 Ch. 2",
+        "NickName": "Uni Controller #1 Ch. 2"
+      },
+      {
+        "Identifier": "Lian Li/Controller_0 _Channel_2",
+        "IsHidden": false,
+        "Name": "Uni Controller #1 Ch. 3",
+        "NickName": "Uni Controller #1 Ch. 3"
+      },
+      {
+        "Identifier": "Lian Li/Controller_0 _Channel_3",
+        "IsHidden": false,
+        "Name": "Uni Controller #1 Ch. 4",
+        "NickName": "Uni Controller #1 Ch. 4"
       }
     ],
     "HideFanSpeedCards": false,
     "HorizontalUIOrientation": false,
     "PrimaryColor": "#FF607D8B",
     "SecondaryColor": "#FFAEEA00",
-    "SelectedTheme": "Light",
+    "SelectedTheme": "Dark",
     "ShowHiddenCards": true,
-    "SyncThemeWithWindows": true,
+    "SyncThemeWithWindows": false,
     "TemperatureSensors": [],
     "TrayIconColor": "#FF000000",
     "TrayIcons": []
@@ -293,6 +447,6 @@
       "Enabled": true,
       "ZeroRPMOverride": false
     },
-    "SensorCount": 63
+    "SensorCount": 76
   }
 }
