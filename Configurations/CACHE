@@ -5,15 +5,15 @@
     "DisablePopupVersionNumber": 0
   },
   "Main": {
-    "DisableDonationPopup": false,
+    "DisableDonationPopup": true,
     "FirstLaunch": false,
-    "Height": 870.28571428571422,
+    "Height": 1192.0,
     "Left": 0.0,
     "LeftDrawerOpen": true,
-    "PopupShownDateTime": "0001-01-01T00:00:00",
+    "PopupShownDateTime": "2023-10-06T20:44:09.5366404+01:00",
     "StartMinimized": true,
-    "Top": 201.14285714285714,
-    "Width": 1082.2857142857142,
+    "Top": 0.0,
+    "Width": 879.42857142857133,
     "WindowState": 0
   }
 }

@@ -147,129 +147,709 @@
         "SelectedStop": 0
       },
       {
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-GA102-A/control/0",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 0,
+        "MinimumPercent": 45,
         "Name": "Control 1 - NVIDIA GeForce RTX 3080",
-        "NickName": "Control 1 - NVIDIA GeForce RTX 3080",
+        "NickName": "NVIDIA GeForce RTX 3080 - Outer Fans",
         "PairedFanSensor": {
           "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
           "IsHidden": false,
           "Name": "Fan 1 - NVIDIA GeForce RTX 3080",
-          "NickName": "Control 1 - NVIDIA GeForce RTX 3080"
+          "NickName": "NVIDIA GeForce RTX 3080 - Outer Fans"
         },
-        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
+        "SelectedFanCurve": {
+          "Deadband": 3.0,
+          "IdleTemperature": 40.0,
+          "IsHidden": false,
+          "LoadTemperature": 66.0,
+          "MaxFanSpeed": 100,
+          "MinFanSpeed": 0,
+          "Name": "Graphic Card 3080 - Auto",
+          "SelectedResponseTime": 2,
+          "SelectedTempSource": {
+            "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+            "IsHidden": false,
+            "Name": "GPU",
+            "NickName": "GPU"
+          },
+          "Step": 5.0
+        },
         "SelectedOffset": 0,
         "SelectedStart": 39,
         "SelectedStop": 36
       },
       {
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-GA102-A/control/1",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 0,
+        "MinimumPercent": 45,
         "Name": "Control 2 - NVIDIA GeForce RTX 3080",
-        "NickName": "Control 2 - NVIDIA GeForce RTX 3080",
+        "NickName": "NVIDIA GeForce RTX 3080 - Inner Fans",
         "PairedFanSensor": {
           "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
           "IsHidden": false,
           "Name": "Fan 2 - NVIDIA GeForce RTX 3080",
-          "NickName": "Control 2 - NVIDIA GeForce RTX 3080"
+          "NickName": "NVIDIA GeForce RTX 3080 - Inner Fans"
         },
-        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
+        "SelectedFanCurve": {
+          "Deadband": 3.0,
+          "IdleTemperature": 40.0,
+          "IsHidden": false,
+          "LoadTemperature": 66.0,
+          "MaxFanSpeed": 100,
+          "MinFanSpeed": 0,
+          "Name": "Graphic Card 3080 - Auto",
+          "SelectedResponseTime": 2,
+          "SelectedTempSource": {
+            "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+            "IsHidden": false,
+            "Name": "GPU",
+            "NickName": "GPU"
+          },
+          "Step": 5.0
+        },
         "SelectedOffset": 0,
         "SelectedStart": 48,
         "SelectedStop": 39
       },
       {
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "NzxtKrakenPlugin/pumpcontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 0,
+        "MinimumPercent": 25,
         "Name": "Pump - Kraken",
-        "NickName": "Pump - Kraken",
+        "NickName": "NZXT Kraken - Pump",
         "PairedFanSensor": {
           "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10",
           "IsHidden": false,
           "Name": "Pump - Kraken",
           "NickName": "Pump - Kraken"
         },
-        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepDown": 0.2,
         "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
+        "SelectedFanCurve": {
+          "IsHidden": false,
+          "Name": "CPU+AIO - Mix",
+          "SelectedFanCurves": [
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 35.0,
+              "IsHidden": false,
+              "LoadTemperature": 40.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "AIO Liquid Temp - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+                "IsHidden": false,
+                "Name": "Liquid - Kraken",
+                "NickName": "Liquid - Kraken"
+              },
+              "Step": 5.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 35.0,
+              "IsHidden": false,
+              "LoadTemperature": 70.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "CPU Core Average - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/intelcpu/0/temperature/34",
+                "IsHidden": false,
+                "Name": "Core Average",
+                "NickName": "Core Average"
+              },
+              "Step": 2.0
+            }
+          ],
+          "SelectedMixFunction": 0
+        },
         "SelectedOffset": 0,
         "SelectedStart": 0,
         "SelectedStop": 0
       },
       {
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "NzxtKrakenPlugin/fancontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 0,
+        "MinimumPercent": 30,
         "Name": "Fan - Kraken",
-        "NickName": "Fan - Kraken",
+        "NickName": "NZXT Kraken - Exhaust Top Fans",
         "PairedFanSensor": {
           "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
           "IsHidden": false,
           "Name": "Fan - Kraken",
-          "NickName": "Fan - Kraken"
+          "NickName": "NZXT Kraken - Exhaust Top Fans"
         },
-        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepDown": 0.2,
         "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
+        "SelectedFanCurve": {
+          "IsHidden": false,
+          "Name": "Max Temperature - Mix",
+          "SelectedFanCurves": [
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 35.0,
+              "IsHidden": false,
+              "LoadTemperature": 40.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "AIO Liquid Temp - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+                "IsHidden": false,
+                "Name": "Liquid - Kraken",
+                "NickName": "Liquid - Kraken"
+              },
+              "Step": 5.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 40.0,
+              "IsHidden": false,
+              "LoadTemperature": 66.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 0,
+              "Name": "Graphic Card 3080 - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              },
+              "Step": 5.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 70.0,
+              "IsHidden": false,
+              "LoadTemperature": 85.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "PCH Temp - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/lpc/nct6687d/temperature/3",
+                "IsHidden": false,
+                "Name": "PCH",
+                "NickName": "PCH"
+              },
+              "Step": 2.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 35.0,
+              "IsHidden": false,
+              "LoadTemperature": 70.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "CPU Core Average - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/intelcpu/0/temperature/34",
+                "IsHidden": false,
+                "Name": "Core Average",
+                "NickName": "Core Average"
+              },
+              "Step": 2.0
+            },
+            {
+              "IsHidden": false,
+              "Name": "Motherboard Components - Max",
+              "SelectedFanCurves": [
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Corsair MP600 [M2_1] - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+                  },
+                  "Step": 2.0
+                }
+              ],
+              "SelectedMixFunction": 0
+            }
+          ],
+          "SelectedMixFunction": 0
+        },
         "SelectedOffset": 0,
-        "SelectedStart": 0,
+        "SelectedStart": 6,
         "SelectedStop": 0
       },
       {
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "Lian Li/Controller_0 _Channel_0",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 0,
+        "MinimumPercent": 30,
         "Name": "Uni Controller #1 Ch. 1",
-        "NickName": "Uni Controller #1 Ch. 1",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
+        "NickName": "Lian Li Uni Controller #1 Ch. 1 - Intake Side Fans",
+        "PairedFanSensor": {
+          "Identifier": "Lian Li/Controller_0 _Channel_0",
+          "IsHidden": false,
+          "Name": "Uni Controller #1 Ch. 1",
+          "NickName": "Lian Li Uni Controller #1 Ch. 1 - Intake Side Fans"
+        },
+        "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
+        "SelectedFanCurve": {
+          "IsHidden": false,
+          "Name": "Max Temperature - Mix",
+          "SelectedFanCurves": [
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 35.0,
+              "IsHidden": false,
+              "LoadTemperature": 40.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "AIO Liquid Temp - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+                "IsHidden": false,
+                "Name": "Liquid - Kraken",
+                "NickName": "Liquid - Kraken"
+              },
+              "Step": 5.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 40.0,
+              "IsHidden": false,
+              "LoadTemperature": 66.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 0,
+              "Name": "Graphic Card 3080 - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              },
+              "Step": 5.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 70.0,
+              "IsHidden": false,
+              "LoadTemperature": 85.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "PCH Temp - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/lpc/nct6687d/temperature/3",
+                "IsHidden": false,
+                "Name": "PCH",
+                "NickName": "PCH"
+              },
+              "Step": 2.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 35.0,
+              "IsHidden": false,
+              "LoadTemperature": 70.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "CPU Core Average - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/intelcpu/0/temperature/34",
+                "IsHidden": false,
+                "Name": "Core Average",
+                "NickName": "Core Average"
+              },
+              "Step": 2.0
+            },
+            {
+              "IsHidden": false,
+              "Name": "Motherboard Components - Max",
+              "SelectedFanCurves": [
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Corsair MP600 [M2_1] - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+                  },
+                  "Step": 2.0
+                }
+              ],
+              "SelectedMixFunction": 0
+            }
+          ],
+          "SelectedMixFunction": 0
+        },
         "SelectedOffset": 0,
         "SelectedStart": 0,
         "SelectedStop": 0
       },
       {
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "Lian Li/Controller_0 _Channel_1",
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 0,
+        "MinimumPercent": 30,
         "Name": "Uni Controller #1 Ch. 2",
-        "NickName": "Uni Controller #1 Ch. 2",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
+        "NickName": "Lian Li Uni Controller #1 Ch. 2 - Intake Bottom Fans",
+        "PairedFanSensor": {
+          "Identifier": "Lian Li/Controller_0 _Channel_1",
+          "IsHidden": false,
+          "Name": "Uni Controller #1 Ch. 2",
+          "NickName": "Lian Li Uni Controller #1 Ch. 2 - Intake Bottom Fans"
+        },
+        "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
+        "SelectedFanCurve": {
+          "IsHidden": false,
+          "Name": "Max Temperature - Mix",
+          "SelectedFanCurves": [
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 35.0,
+              "IsHidden": false,
+              "LoadTemperature": 40.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "AIO Liquid Temp - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+                "IsHidden": false,
+                "Name": "Liquid - Kraken",
+                "NickName": "Liquid - Kraken"
+              },
+              "Step": 5.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 40.0,
+              "IsHidden": false,
+              "LoadTemperature": 66.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 0,
+              "Name": "Graphic Card 3080 - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              },
+              "Step": 5.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 70.0,
+              "IsHidden": false,
+              "LoadTemperature": 85.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "PCH Temp - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/lpc/nct6687d/temperature/3",
+                "IsHidden": false,
+                "Name": "PCH",
+                "NickName": "PCH"
+              },
+              "Step": 2.0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 35.0,
+              "IsHidden": false,
+              "LoadTemperature": 70.0,
+              "MaxFanSpeed": 80,
+              "MinFanSpeed": 0,
+              "Name": "CPU Core Average - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/intelcpu/0/temperature/34",
+                "IsHidden": false,
+                "Name": "Core Average",
+                "NickName": "Core Average"
+              },
+              "Step": 2.0
+            },
+            {
+              "IsHidden": false,
+              "Name": "Motherboard Components - Max",
+              "SelectedFanCurves": [
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Corsair MP600 [M2_1] - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
+                  },
+                  "Step": 2.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 50.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 70.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
+                    "IsHidden": false,
+                    "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
+                    "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+                  },
+                  "Step": 2.0
+                }
+              ],
+              "SelectedMixFunction": 0
+            }
+          ],
+          "SelectedMixFunction": 0
+        },
         "SelectedOffset": 0,
         "SelectedStart": 0,
         "SelectedStop": 0
@@ -278,7 +858,7 @@
         "Enable": false,
         "ForceApply": false,
         "Identifier": "Lian Li/Controller_0 _Channel_2",
-        "IsHidden": false,
+        "IsHidden": true,
         "ManualControl": false,
         "ManualControlValue": 50,
         "MinimumPercent": 0,
@@ -296,7 +876,7 @@
         "Enable": false,
         "ForceApply": false,
         "Identifier": "Lian Li/Controller_0 _Channel_3",
-        "IsHidden": false,
+        "IsHidden": true,
         "ManualControl": false,
         "ManualControlValue": 50,
         "MinimumPercent": 0,
@@ -315,14 +895,462 @@
     "FanCurves": [
       {
         "IsHidden": false,
-        "Name": "Flat curve example",
-        "Percent": 50.0
+        "Name": "Max Temperature - Mix",
+        "SelectedFanCurves": [
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 35.0,
+            "IsHidden": false,
+            "LoadTemperature": 40.0,
+            "MaxFanSpeed": 80,
+            "MinFanSpeed": 0,
+            "Name": "AIO Liquid Temp - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+              "IsHidden": false,
+              "Name": "Liquid - Kraken",
+              "NickName": "Liquid - Kraken"
+            },
+            "Step": 5.0
+          },
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 40.0,
+            "IsHidden": false,
+            "LoadTemperature": 66.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 0,
+            "Name": "Graphic Card 3080 - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+              "IsHidden": false,
+              "Name": "GPU",
+              "NickName": "GPU"
+            },
+            "Step": 5.0
+          },
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 70.0,
+            "IsHidden": false,
+            "LoadTemperature": 85.0,
+            "MaxFanSpeed": 80,
+            "MinFanSpeed": 0,
+            "Name": "PCH Temp - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "/lpc/nct6687d/temperature/3",
+              "IsHidden": false,
+              "Name": "PCH",
+              "NickName": "PCH"
+            },
+            "Step": 2.0
+          },
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 35.0,
+            "IsHidden": false,
+            "LoadTemperature": 70.0,
+            "MaxFanSpeed": 80,
+            "MinFanSpeed": 0,
+            "Name": "CPU Core Average - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "/intelcpu/0/temperature/34",
+              "IsHidden": false,
+              "Name": "Core Average",
+              "NickName": "Core Average"
+            },
+            "Step": 2.0
+          },
+          {
+            "IsHidden": false,
+            "Name": "Motherboard Components - Max",
+            "SelectedFanCurves": [
+              {
+                "Deadband": 3.0,
+                "IdleTemperature": 50.0,
+                "IsHidden": false,
+                "LoadTemperature": 70.0,
+                "MaxFanSpeed": 100,
+                "MinFanSpeed": 0,
+                "Name": "SSD Corsair MP600 [M2_1] - Auto",
+                "SelectedResponseTime": 2,
+                "SelectedTempSource": {
+                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+                  "IsHidden": false,
+                  "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
+                  "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
+                },
+                "Step": 2.0
+              },
+              {
+                "Deadband": 3.0,
+                "IdleTemperature": 50.0,
+                "IsHidden": false,
+                "LoadTemperature": 70.0,
+                "MaxFanSpeed": 100,
+                "MinFanSpeed": 0,
+                "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
+                "SelectedResponseTime": 2,
+                "SelectedTempSource": {
+                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
+                  "IsHidden": false,
+                  "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
+                  "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
+                },
+                "Step": 2.0
+              },
+              {
+                "Deadband": 3.0,
+                "IdleTemperature": 50.0,
+                "IsHidden": false,
+                "LoadTemperature": 70.0,
+                "MaxFanSpeed": 100,
+                "MinFanSpeed": 0,
+                "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
+                "SelectedResponseTime": 2,
+                "SelectedTempSource": {
+                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
+                  "IsHidden": false,
+                  "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
+                  "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
+                },
+                "Step": 2.0
+              },
+              {
+                "Deadband": 3.0,
+                "IdleTemperature": 50.0,
+                "IsHidden": false,
+                "LoadTemperature": 70.0,
+                "MaxFanSpeed": 100,
+                "MinFanSpeed": 0,
+                "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
+                "SelectedResponseTime": 2,
+                "SelectedTempSource": {
+                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
+                  "IsHidden": false,
+                  "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
+                  "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
+                },
+                "Step": 2.0
+              },
+              {
+                "Deadband": 3.0,
+                "IdleTemperature": 50.0,
+                "IsHidden": false,
+                "LoadTemperature": 70.0,
+                "MaxFanSpeed": 100,
+                "MinFanSpeed": 0,
+                "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
+                "SelectedResponseTime": 2,
+                "SelectedTempSource": {
+                  "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
+                  "IsHidden": false,
+                  "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
+                  "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+                },
+                "Step": 2.0
+              }
+            ],
+            "SelectedMixFunction": 0
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "IsHidden": false,
+        "Name": "CPU+AIO - Mix",
+        "SelectedFanCurves": [
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 35.0,
+            "IsHidden": false,
+            "LoadTemperature": 40.0,
+            "MaxFanSpeed": 80,
+            "MinFanSpeed": 0,
+            "Name": "AIO Liquid Temp - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+              "IsHidden": false,
+              "Name": "Liquid - Kraken",
+              "NickName": "Liquid - Kraken"
+            },
+            "Step": 5.0
+          },
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 35.0,
+            "IsHidden": false,
+            "LoadTemperature": 70.0,
+            "MaxFanSpeed": 80,
+            "MinFanSpeed": 0,
+            "Name": "CPU Core Average - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "/intelcpu/0/temperature/34",
+              "IsHidden": false,
+              "Name": "Core Average",
+              "NickName": "Core Average"
+            },
+            "Step": 2.0
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "IsHidden": false,
+        "Name": "Motherboard Components - Max",
+        "SelectedFanCurves": [
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 50.0,
+            "IsHidden": false,
+            "LoadTemperature": 70.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 0,
+            "Name": "SSD Corsair MP600 [M2_1] - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+              "IsHidden": false,
+              "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
+              "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
+            },
+            "Step": 2.0
+          },
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 50.0,
+            "IsHidden": false,
+            "LoadTemperature": 70.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 0,
+            "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
+              "IsHidden": false,
+              "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
+              "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
+            },
+            "Step": 2.0
+          },
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 50.0,
+            "IsHidden": false,
+            "LoadTemperature": 70.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 0,
+            "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
+              "IsHidden": false,
+              "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
+              "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
+            },
+            "Step": 2.0
+          },
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 50.0,
+            "IsHidden": false,
+            "LoadTemperature": 70.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 0,
+            "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
+              "IsHidden": false,
+              "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
+              "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
+            },
+            "Step": 2.0
+          },
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 50.0,
+            "IsHidden": false,
+            "LoadTemperature": 70.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 0,
+            "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
+              "IsHidden": false,
+              "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
+              "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+            },
+            "Step": 2.0
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 35.0,
+        "IsHidden": false,
+        "LoadTemperature": 40.0,
+        "MaxFanSpeed": 80,
+        "MinFanSpeed": 0,
+        "Name": "AIO Liquid Temp - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+          "IsHidden": false,
+          "Name": "Liquid - Kraken",
+          "NickName": "Liquid - Kraken"
+        },
+        "Step": 5.0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 40.0,
+        "IsHidden": false,
+        "LoadTemperature": 66.0,
+        "MaxFanSpeed": 100,
+        "MinFanSpeed": 0,
+        "Name": "Graphic Card 3080 - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+          "IsHidden": false,
+          "Name": "GPU",
+          "NickName": "GPU"
+        },
+        "Step": 5.0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 70.0,
+        "IsHidden": false,
+        "LoadTemperature": 85.0,
+        "MaxFanSpeed": 80,
+        "MinFanSpeed": 0,
+        "Name": "PCH Temp - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "/lpc/nct6687d/temperature/3",
+          "IsHidden": false,
+          "Name": "PCH",
+          "NickName": "PCH"
+        },
+        "Step": 2.0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 35.0,
+        "IsHidden": false,
+        "LoadTemperature": 70.0,
+        "MaxFanSpeed": 80,
+        "MinFanSpeed": 0,
+        "Name": "CPU Core Average - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "/intelcpu/0/temperature/34",
+          "IsHidden": false,
+          "Name": "Core Average",
+          "NickName": "Core Average"
+        },
+        "Step": 2.0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 50.0,
+        "IsHidden": false,
+        "LoadTemperature": 70.0,
+        "MaxFanSpeed": 100,
+        "MinFanSpeed": 0,
+        "Name": "SSD Corsair MP600 [M2_1] - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)/Drive Temperature/°C",
+          "IsHidden": false,
+          "Name": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)",
+          "NickName": "Drive Temperature - S.M.A.R.T.: Corsair MP600 PRO LPX (2314799900013142004E)"
+        },
+        "Step": 2.0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 50.0,
+        "IsHidden": false,
+        "LoadTemperature": 70.0,
+        "MaxFanSpeed": 100,
+        "MinFanSpeed": 0,
+        "Name": "SSD Samsung 990 [3K M2_2]  - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)/Drive Temperature/°C",
+          "IsHidden": false,
+          "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)",
+          "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375273K)"
+        },
+        "Step": 2.0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 50.0,
+        "IsHidden": false,
+        "LoadTemperature": 70.0,
+        "MaxFanSpeed": 100,
+        "MinFanSpeed": 0,
+        "Name": "SSD Samsung 990 [8T M2_5]  - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)/Drive Temperature/°C",
+          "IsHidden": false,
+          "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)",
+          "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W383228T)"
+        },
+        "Step": 2.0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 50.0,
+        "IsHidden": false,
+        "LoadTemperature": 70.0,
+        "MaxFanSpeed": 100,
+        "MinFanSpeed": 0,
+        "Name": "SSD Samsung 990 [4F M2_3]  - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)/Drive Temperature/°C",
+          "IsHidden": false,
+          "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)",
+          "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375274F)"
+        },
+        "Step": 2.0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 50.0,
+        "IsHidden": false,
+        "LoadTemperature": 70.0,
+        "MaxFanSpeed": 100,
+        "MinFanSpeed": 0,
+        "Name": "SSD Samsung 990 [4J M2_4]  - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "HWInfo/HWInfo/S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)/Drive Temperature/°C",
+          "IsHidden": false,
+          "Name": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)",
+          "NickName": "Drive Temperature - S.M.A.R.T.: Samsung SSD 990 PRO 1TB (S6Z1NJ0W375384J)"
+        },
+        "Step": 2.0
       }
     ],
     "FanSensors": [
       {
         "Identifier": "/lpc/nct6687d/fan/0",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "CPU Fan",
         "NickName": "CPU Fan"
       },
@@ -330,35 +1358,35 @@
         "Identifier": "/lpc/nct6687d/fan/1",
         "IsHidden": false,
         "Name": "Pump Fan",
-        "NickName": "Pump Fan"
+        "NickName": "NZXT Kraken - Pump"
       },
       {
         "Identifier": "/lpc/nct6687d/fan/2",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "System Fan #1",
         "NickName": "System Fan #1"
       },
       {
         "Identifier": "/lpc/nct6687d/fan/3",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "System Fan #2",
         "NickName": "System Fan #2"
       },
       {
         "Identifier": "/lpc/nct6687d/fan/4",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "System Fan #3",
         "NickName": "System Fan #3"
       },
       {
         "Identifier": "/lpc/nct6687d/fan/5",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "System Fan #4",
         "NickName": "System Fan #4"
       },
       {
         "Identifier": "/lpc/nct6687d/fan/6",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "System Fan #5",
         "NickName": "System Fan #5"
       },
@@ -372,13 +1400,13 @@
         "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
         "IsHidden": false,
         "Name": "Fan 1 - NVIDIA GeForce RTX 3080",
-        "NickName": "Control 1 - NVIDIA GeForce RTX 3080"
+        "NickName": "NVIDIA GeForce RTX 3080 - Outer Fans"
       },
       {
         "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
         "IsHidden": false,
         "Name": "Fan 2 - NVIDIA GeForce RTX 3080",
-        "NickName": "Control 2 - NVIDIA GeForce RTX 3080"
+        "NickName": "NVIDIA GeForce RTX 3080 - Inner Fans"
       },
       {
         "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -390,39 +1418,39 @@
         "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
         "IsHidden": false,
         "Name": "Fan - Kraken",
-        "NickName": "Fan - Kraken"
+        "NickName": "NZXT Kraken - Exhaust Top Fans"
       },
       {
         "Identifier": "Lian Li/Controller_0 _Channel_0",
         "IsHidden": false,
         "Name": "Uni Controller #1 Ch. 1",
-        "NickName": "Uni Controller #1 Ch. 1"
+        "NickName": "Lian Li Uni Controller #1 Ch. 1 - Intake Side Fans"
       },
       {
         "Identifier": "Lian Li/Controller_0 _Channel_1",
         "IsHidden": false,
         "Name": "Uni Controller #1 Ch. 2",
-        "NickName": "Uni Controller #1 Ch. 2"
+        "NickName": "Lian Li Uni Controller #1 Ch. 2 - Intake Bottom Fans"
       },
       {
         "Identifier": "Lian Li/Controller_0 _Channel_2",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "Uni Controller #1 Ch. 3",
-        "NickName": "Uni Controller #1 Ch. 3"
+        "NickName": "Uni Controller #1 Ch. 3 - NC"
       },
       {
         "Identifier": "Lian Li/Controller_0 _Channel_3",
-        "IsHidden": false,
+        "IsHidden": true,
         "Name": "Uni Controller #1 Ch. 4",
-        "NickName": "Uni Controller #1 Ch. 4"
+        "NickName": "Uni Controller #1 Ch. 4 - NC"
       }
     ],
-    "HideFanSpeedCards": false,
+    "HideFanSpeedCards": true,
     "HorizontalUIOrientation": false,
-    "PrimaryColor": "#FF607D8B",
-    "SecondaryColor": "#FFAEEA00",
+    "PrimaryColor": "#FF725B8A",
+    "SecondaryColor": "#FF5D967E",
     "SelectedTheme": "Dark",
-    "ShowHiddenCards": true,
+    "ShowHiddenCards": false,
     "SyncThemeWithWindows": false,
     "TemperatureSensors": [],
     "TrayIconColor": "#FF000000",
@@ -447,6 +1475,6 @@
       "Enabled": true,
       "ZeroRPMOverride": false
     },
-    "SensorCount": 76
+    "SensorCount": 89
   }
 }
