@@ -153,7 +153,7 @@
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 45,
+        "MinimumPercent": 46,
         "Name": "Control 1 - NVIDIA GeForce RTX 3080",
         "NickName": "NVIDIA GeForce RTX 3080 - Outer Fans",
         "PairedFanSensor": {
@@ -166,11 +166,11 @@
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
           "Deadband": 3.0,
-          "IdleTemperature": 40.0,
+          "IdleTemperature": 37.0,
           "IsHidden": false,
-          "LoadTemperature": 66.0,
+          "LoadTemperature": 65.0,
           "MaxFanSpeed": 100,
-          "MinFanSpeed": 0,
+          "MinFanSpeed": 40,
           "Name": "Graphic Card 3080 - Auto",
           "SelectedResponseTime": 2,
           "SelectedTempSource": {
@@ -182,8 +182,8 @@
           "Step": 5.0
         },
         "SelectedOffset": 0,
-        "SelectedStart": 39,
-        "SelectedStop": 36
+        "SelectedStart": 40,
+        "SelectedStop": 40
       },
       {
         "Enable": true,
@@ -205,11 +205,11 @@
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
           "Deadband": 3.0,
-          "IdleTemperature": 40.0,
+          "IdleTemperature": 37.0,
           "IsHidden": false,
-          "LoadTemperature": 66.0,
+          "LoadTemperature": 65.0,
           "MaxFanSpeed": 100,
-          "MinFanSpeed": 0,
+          "MinFanSpeed": 40,
           "Name": "Graphic Card 3080 - Auto",
           "SelectedResponseTime": 2,
           "SelectedTempSource": {
@@ -221,8 +221,8 @@
           "Step": 5.0
         },
         "SelectedOffset": 0,
-        "SelectedStart": 48,
-        "SelectedStop": 39
+        "SelectedStart": 45,
+        "SelectedStop": 45
       },
       {
         "Enable": true,
@@ -231,7 +231,7 @@
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 25,
+        "MinimumPercent": 20,
         "Name": "Pump - Kraken",
         "NickName": "NZXT Kraken - Pump",
         "PairedFanSensor": {
@@ -240,7 +240,7 @@
           "Name": "Pump - Kraken",
           "NickName": "Pump - Kraken"
         },
-        "SelectedCommandStepDown": 0.2,
+        "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
           "IsHidden": false,
@@ -248,13 +248,13 @@
           "SelectedFanCurves": [
             {
               "Deadband": 3.0,
-              "IdleTemperature": 35.0,
+              "IdleTemperature": 31.0,
               "IsHidden": false,
-              "LoadTemperature": 40.0,
-              "MaxFanSpeed": 80,
+              "LoadTemperature": 37.0,
+              "MaxFanSpeed": 100,
               "MinFanSpeed": 0,
               "Name": "AIO Liquid - Auto",
-              "SelectedResponseTime": 2,
+              "SelectedResponseTime": 1,
               "SelectedTempSource": {
                 "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
                 "IsHidden": false,
@@ -265,11 +265,11 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 35.0,
+              "IdleTemperature": 37.0,
               "IsHidden": false,
-              "LoadTemperature": 70.0,
-              "MaxFanSpeed": 80,
-              "MinFanSpeed": 0,
+              "LoadTemperature": 75.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 40,
               "Name": "CPU Core Average - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -294,7 +294,7 @@
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 30,
+        "MinimumPercent": 20,
         "Name": "Fan - Kraken",
         "NickName": "NZXT Kraken - Exhaust Top Fans",
         "PairedFanSensor": {
@@ -303,7 +303,7 @@
           "Name": "Fan - Kraken",
           "NickName": "NZXT Kraken - Exhaust Top Fans"
         },
-        "SelectedCommandStepDown": 0.2,
+        "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
           "IsHidden": false,
@@ -311,13 +311,13 @@
           "SelectedFanCurves": [
             {
               "Deadband": 3.0,
-              "IdleTemperature": 35.0,
+              "IdleTemperature": 31.0,
               "IsHidden": false,
-              "LoadTemperature": 40.0,
-              "MaxFanSpeed": 80,
+              "LoadTemperature": 37.0,
+              "MaxFanSpeed": 100,
               "MinFanSpeed": 0,
               "Name": "AIO Liquid - Auto",
-              "SelectedResponseTime": 2,
+              "SelectedResponseTime": 1,
               "SelectedTempSource": {
                 "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
                 "IsHidden": false,
@@ -328,11 +328,11 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 40.0,
+              "IdleTemperature": 37.0,
               "IsHidden": false,
-              "LoadTemperature": 66.0,
+              "LoadTemperature": 65.0,
               "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
+              "MinFanSpeed": 40,
               "Name": "Graphic Card 3080 - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -345,9 +345,9 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 70.0,
+              "IdleTemperature": 67.0,
               "IsHidden": false,
-              "LoadTemperature": 85.0,
+              "LoadTemperature": 72.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
               "Name": "PCH - Auto",
@@ -362,11 +362,11 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 35.0,
+              "IdleTemperature": 37.0,
               "IsHidden": false,
-              "LoadTemperature": 70.0,
-              "MaxFanSpeed": 80,
-              "MinFanSpeed": 0,
+              "LoadTemperature": 75.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 40,
               "Name": "CPU Core Average - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -383,9 +383,9 @@
               "SelectedFanCurves": [
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 70.0,
+                  "IdleTemperature": 67.0,
                   "IsHidden": false,
-                  "LoadTemperature": 85.0,
+                  "LoadTemperature": 72.0,
                   "MaxFanSpeed": 80,
                   "MinFanSpeed": 0,
                   "Name": "PCH - Auto",
@@ -400,6 +400,23 @@
                 }
               ],
               "SelectedMixFunction": 0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 40.0,
+              "IsHidden": false,
+              "LoadTemperature": 75.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 0,
+              "Name": "CPU Core Max - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/intelcpu/0/temperature/33",
+                "IsHidden": false,
+                "Name": "Core Max",
+                "NickName": "Core Max"
+              },
+              "Step": 2.0
             }
           ],
           "SelectedMixFunction": 0
@@ -415,7 +432,7 @@
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 30,
+        "MinimumPercent": 20,
         "Name": "Uni Controller #1 Ch. 1",
         "NickName": "Lian Li Uni Controller #1 Ch. 1 - Intake Side Fans",
         "PairedFanSensor": {
@@ -432,13 +449,13 @@
           "SelectedFanCurves": [
             {
               "Deadband": 3.0,
-              "IdleTemperature": 35.0,
+              "IdleTemperature": 31.0,
               "IsHidden": false,
-              "LoadTemperature": 40.0,
-              "MaxFanSpeed": 80,
+              "LoadTemperature": 37.0,
+              "MaxFanSpeed": 100,
               "MinFanSpeed": 0,
               "Name": "AIO Liquid - Auto",
-              "SelectedResponseTime": 2,
+              "SelectedResponseTime": 1,
               "SelectedTempSource": {
                 "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
                 "IsHidden": false,
@@ -449,11 +466,11 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 40.0,
+              "IdleTemperature": 37.0,
               "IsHidden": false,
-              "LoadTemperature": 66.0,
+              "LoadTemperature": 65.0,
               "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
+              "MinFanSpeed": 40,
               "Name": "Graphic Card 3080 - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -466,9 +483,9 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 70.0,
+              "IdleTemperature": 67.0,
               "IsHidden": false,
-              "LoadTemperature": 85.0,
+              "LoadTemperature": 72.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
               "Name": "PCH - Auto",
@@ -483,11 +500,11 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 35.0,
+              "IdleTemperature": 37.0,
               "IsHidden": false,
-              "LoadTemperature": 70.0,
-              "MaxFanSpeed": 80,
-              "MinFanSpeed": 0,
+              "LoadTemperature": 75.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 40,
               "Name": "CPU Core Average - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -504,9 +521,9 @@
               "SelectedFanCurves": [
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 70.0,
+                  "IdleTemperature": 67.0,
                   "IsHidden": false,
-                  "LoadTemperature": 85.0,
+                  "LoadTemperature": 72.0,
                   "MaxFanSpeed": 80,
                   "MinFanSpeed": 0,
                   "Name": "PCH - Auto",
@@ -521,6 +538,23 @@
                 }
               ],
               "SelectedMixFunction": 0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 40.0,
+              "IsHidden": false,
+              "LoadTemperature": 75.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 0,
+              "Name": "CPU Core Max - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/intelcpu/0/temperature/33",
+                "IsHidden": false,
+                "Name": "Core Max",
+                "NickName": "Core Max"
+              },
+              "Step": 2.0
             }
           ],
           "SelectedMixFunction": 0
@@ -536,7 +570,7 @@
         "IsHidden": false,
         "ManualControl": false,
         "ManualControlValue": 50,
-        "MinimumPercent": 30,
+        "MinimumPercent": 20,
         "Name": "Uni Controller #1 Ch. 2",
         "NickName": "Lian Li Uni Controller #1 Ch. 2 - Intake Bottom Fans",
         "PairedFanSensor": {
@@ -553,13 +587,13 @@
           "SelectedFanCurves": [
             {
               "Deadband": 3.0,
-              "IdleTemperature": 35.0,
+              "IdleTemperature": 31.0,
               "IsHidden": false,
-              "LoadTemperature": 40.0,
-              "MaxFanSpeed": 80,
+              "LoadTemperature": 37.0,
+              "MaxFanSpeed": 100,
               "MinFanSpeed": 0,
               "Name": "AIO Liquid - Auto",
-              "SelectedResponseTime": 2,
+              "SelectedResponseTime": 1,
               "SelectedTempSource": {
                 "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
                 "IsHidden": false,
@@ -570,11 +604,11 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 40.0,
+              "IdleTemperature": 37.0,
               "IsHidden": false,
-              "LoadTemperature": 66.0,
+              "LoadTemperature": 65.0,
               "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
+              "MinFanSpeed": 40,
               "Name": "Graphic Card 3080 - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -587,9 +621,9 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 70.0,
+              "IdleTemperature": 67.0,
               "IsHidden": false,
-              "LoadTemperature": 85.0,
+              "LoadTemperature": 72.0,
               "MaxFanSpeed": 80,
               "MinFanSpeed": 0,
               "Name": "PCH - Auto",
@@ -604,11 +638,11 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 35.0,
+              "IdleTemperature": 37.0,
               "IsHidden": false,
-              "LoadTemperature": 70.0,
-              "MaxFanSpeed": 80,
-              "MinFanSpeed": 0,
+              "LoadTemperature": 75.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 40,
               "Name": "CPU Core Average - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -625,9 +659,9 @@
               "SelectedFanCurves": [
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 70.0,
+                  "IdleTemperature": 67.0,
                   "IsHidden": false,
-                  "LoadTemperature": 85.0,
+                  "LoadTemperature": 72.0,
                   "MaxFanSpeed": 80,
                   "MinFanSpeed": 0,
                   "Name": "PCH - Auto",
@@ -642,6 +676,23 @@
                 }
               ],
               "SelectedMixFunction": 0
+            },
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 40.0,
+              "IsHidden": false,
+              "LoadTemperature": 75.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 0,
+              "Name": "CPU Core Max - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "/intelcpu/0/temperature/33",
+                "IsHidden": false,
+                "Name": "Core Max",
+                "NickName": "Core Max"
+              },
+              "Step": 2.0
             }
           ],
           "SelectedMixFunction": 0
@@ -695,13 +746,13 @@
         "SelectedFanCurves": [
           {
             "Deadband": 3.0,
-            "IdleTemperature": 35.0,
+            "IdleTemperature": 31.0,
             "IsHidden": false,
-            "LoadTemperature": 40.0,
-            "MaxFanSpeed": 80,
+            "LoadTemperature": 37.0,
+            "MaxFanSpeed": 100,
             "MinFanSpeed": 0,
             "Name": "AIO Liquid - Auto",
-            "SelectedResponseTime": 2,
+            "SelectedResponseTime": 1,
             "SelectedTempSource": {
               "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
               "IsHidden": false,
@@ -712,11 +763,11 @@
           },
           {
             "Deadband": 3.0,
-            "IdleTemperature": 40.0,
+            "IdleTemperature": 37.0,
             "IsHidden": false,
-            "LoadTemperature": 66.0,
+            "LoadTemperature": 65.0,
             "MaxFanSpeed": 100,
-            "MinFanSpeed": 0,
+            "MinFanSpeed": 40,
             "Name": "Graphic Card 3080 - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
@@ -729,9 +780,9 @@
           },
           {
             "Deadband": 3.0,
-            "IdleTemperature": 70.0,
+            "IdleTemperature": 67.0,
             "IsHidden": false,
-            "LoadTemperature": 85.0,
+            "LoadTemperature": 72.0,
             "MaxFanSpeed": 80,
             "MinFanSpeed": 0,
             "Name": "PCH - Auto",
@@ -746,11 +797,11 @@
           },
           {
             "Deadband": 3.0,
-            "IdleTemperature": 35.0,
+            "IdleTemperature": 37.0,
             "IsHidden": false,
-            "LoadTemperature": 70.0,
-            "MaxFanSpeed": 80,
-            "MinFanSpeed": 0,
+            "LoadTemperature": 75.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 40,
             "Name": "CPU Core Average - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
@@ -767,9 +818,9 @@
             "SelectedFanCurves": [
               {
                 "Deadband": 3.0,
-                "IdleTemperature": 70.0,
+                "IdleTemperature": 67.0,
                 "IsHidden": false,
-                "LoadTemperature": 85.0,
+                "LoadTemperature": 72.0,
                 "MaxFanSpeed": 80,
                 "MinFanSpeed": 0,
                 "Name": "PCH - Auto",
@@ -784,6 +835,23 @@
               }
             ],
             "SelectedMixFunction": 0
+          },
+          {
+            "Deadband": 3.0,
+            "IdleTemperature": 40.0,
+            "IsHidden": false,
+            "LoadTemperature": 75.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 0,
+            "Name": "CPU Core Max - Auto",
+            "SelectedResponseTime": 2,
+            "SelectedTempSource": {
+              "Identifier": "/intelcpu/0/temperature/33",
+              "IsHidden": false,
+              "Name": "Core Max",
+              "NickName": "Core Max"
+            },
+            "Step": 2.0
           }
         ],
         "SelectedMixFunction": 0
@@ -794,13 +862,13 @@
         "SelectedFanCurves": [
           {
             "Deadband": 3.0,
-            "IdleTemperature": 35.0,
+            "IdleTemperature": 31.0,
             "IsHidden": false,
-            "LoadTemperature": 40.0,
-            "MaxFanSpeed": 80,
+            "LoadTemperature": 37.0,
+            "MaxFanSpeed": 100,
             "MinFanSpeed": 0,
             "Name": "AIO Liquid - Auto",
-            "SelectedResponseTime": 2,
+            "SelectedResponseTime": 1,
             "SelectedTempSource": {
               "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
               "IsHidden": false,
@@ -811,11 +879,11 @@
           },
           {
             "Deadband": 3.0,
-            "IdleTemperature": 35.0,
+            "IdleTemperature": 37.0,
             "IsHidden": false,
-            "LoadTemperature": 70.0,
-            "MaxFanSpeed": 80,
-            "MinFanSpeed": 0,
+            "LoadTemperature": 75.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 40,
             "Name": "CPU Core Average - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
@@ -835,9 +903,9 @@
         "SelectedFanCurves": [
           {
             "Deadband": 3.0,
-            "IdleTemperature": 70.0,
+            "IdleTemperature": 67.0,
             "IsHidden": false,
-            "LoadTemperature": 85.0,
+            "LoadTemperature": 72.0,
             "MaxFanSpeed": 80,
             "MinFanSpeed": 0,
             "Name": "PCH - Auto",
@@ -855,13 +923,13 @@
       },
       {
         "Deadband": 3.0,
-        "IdleTemperature": 35.0,
+        "IdleTemperature": 31.0,
         "IsHidden": false,
-        "LoadTemperature": 40.0,
-        "MaxFanSpeed": 80,
+        "LoadTemperature": 37.0,
+        "MaxFanSpeed": 100,
         "MinFanSpeed": 0,
         "Name": "AIO Liquid - Auto",
-        "SelectedResponseTime": 2,
+        "SelectedResponseTime": 1,
         "SelectedTempSource": {
           "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
           "IsHidden": false,
@@ -872,11 +940,11 @@
       },
       {
         "Deadband": 3.0,
-        "IdleTemperature": 40.0,
+        "IdleTemperature": 37.0,
         "IsHidden": false,
-        "LoadTemperature": 66.0,
+        "LoadTemperature": 65.0,
         "MaxFanSpeed": 100,
-        "MinFanSpeed": 0,
+        "MinFanSpeed": 40,
         "Name": "Graphic Card 3080 - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
@@ -889,9 +957,9 @@
       },
       {
         "Deadband": 3.0,
-        "IdleTemperature": 70.0,
+        "IdleTemperature": 67.0,
         "IsHidden": false,
-        "LoadTemperature": 85.0,
+        "LoadTemperature": 72.0,
         "MaxFanSpeed": 80,
         "MinFanSpeed": 0,
         "Name": "PCH - Auto",
@@ -906,11 +974,11 @@
       },
       {
         "Deadband": 3.0,
-        "IdleTemperature": 35.0,
+        "IdleTemperature": 37.0,
         "IsHidden": false,
-        "LoadTemperature": 70.0,
-        "MaxFanSpeed": 80,
-        "MinFanSpeed": 0,
+        "LoadTemperature": 75.0,
+        "MaxFanSpeed": 100,
+        "MinFanSpeed": 40,
         "Name": "CPU Core Average - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
@@ -918,6 +986,23 @@
           "IsHidden": false,
           "Name": "Core Average",
           "NickName": "Core Average"
+        },
+        "Step": 2.0
+      },
+      {
+        "Deadband": 3.0,
+        "IdleTemperature": 40.0,
+        "IsHidden": false,
+        "LoadTemperature": 75.0,
+        "MaxFanSpeed": 100,
+        "MinFanSpeed": 0,
+        "Name": "CPU Core Max - Auto",
+        "SelectedResponseTime": 2,
+        "SelectedTempSource": {
+          "Identifier": "/intelcpu/0/temperature/33",
+          "IsHidden": false,
+          "Name": "Core Max",
+          "NickName": "Core Max"
         },
         "Step": 2.0
       }
