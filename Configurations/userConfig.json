@@ -311,23 +311,6 @@
           "SelectedFanCurves": [
             {
               "Deadband": 3.0,
-              "IdleTemperature": 31.0,
-              "IsHidden": false,
-              "LoadTemperature": 37.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
-              "Name": "AIO Liquid - Auto",
-              "SelectedResponseTime": 1,
-              "SelectedTempSource": {
-                "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-                "IsHidden": false,
-                "Name": "Liquid - Kraken",
-                "NickName": "Liquid - Kraken"
-              },
-              "Step": 5.0
-            },
-            {
-              "Deadband": 3.0,
               "IdleTemperature": 37.0,
               "IsHidden": false,
               "LoadTemperature": 65.0,
@@ -342,40 +325,6 @@
                 "NickName": "GPU"
               },
               "Step": 5.0
-            },
-            {
-              "Deadband": 3.0,
-              "IdleTemperature": 67.0,
-              "IsHidden": false,
-              "LoadTemperature": 72.0,
-              "MaxFanSpeed": 80,
-              "MinFanSpeed": 0,
-              "Name": "PCH - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/lpc/nct6687d/temperature/3",
-                "IsHidden": false,
-                "Name": "PCH",
-                "NickName": "PCH"
-              },
-              "Step": 2.0
-            },
-            {
-              "Deadband": 3.0,
-              "IdleTemperature": 37.0,
-              "IsHidden": false,
-              "LoadTemperature": 75.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 40,
-              "Name": "CPU Core Average - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/intelcpu/0/temperature/34",
-                "IsHidden": false,
-                "Name": "Core Average",
-                "NickName": "Core Average"
-              },
-              "Step": 2.0
             },
             {
               "IsHidden": false,
@@ -402,21 +351,45 @@
               "SelectedMixFunction": 0
             },
             {
-              "Deadband": 3.0,
-              "IdleTemperature": 40.0,
               "IsHidden": false,
-              "LoadTemperature": 75.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
-              "Name": "CPU Core Max - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/intelcpu/0/temperature/33",
-                "IsHidden": false,
-                "Name": "Core Max",
-                "NickName": "Core Max"
-              },
-              "Step": 2.0
+              "Name": "CPU+AIO - Mix",
+              "SelectedFanCurves": [
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 31.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 37.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "AIO Liquid - Auto",
+                  "SelectedResponseTime": 1,
+                  "SelectedTempSource": {
+                    "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+                    "IsHidden": false,
+                    "Name": "Liquid - Kraken",
+                    "NickName": "Liquid - Kraken"
+                  },
+                  "Step": 5.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 37.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 75.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 40,
+                  "Name": "CPU Core Average - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "/intelcpu/0/temperature/34",
+                    "IsHidden": false,
+                    "Name": "Core Average",
+                    "NickName": "Core Average"
+                  },
+                  "Step": 2.0
+                }
+              ],
+              "SelectedMixFunction": 0
             }
           ],
           "SelectedMixFunction": 0
@@ -449,23 +422,6 @@
           "SelectedFanCurves": [
             {
               "Deadband": 3.0,
-              "IdleTemperature": 31.0,
-              "IsHidden": false,
-              "LoadTemperature": 37.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
-              "Name": "AIO Liquid - Auto",
-              "SelectedResponseTime": 1,
-              "SelectedTempSource": {
-                "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-                "IsHidden": false,
-                "Name": "Liquid - Kraken",
-                "NickName": "Liquid - Kraken"
-              },
-              "Step": 5.0
-            },
-            {
-              "Deadband": 3.0,
               "IdleTemperature": 37.0,
               "IsHidden": false,
               "LoadTemperature": 65.0,
@@ -480,40 +436,6 @@
                 "NickName": "GPU"
               },
               "Step": 5.0
-            },
-            {
-              "Deadband": 3.0,
-              "IdleTemperature": 67.0,
-              "IsHidden": false,
-              "LoadTemperature": 72.0,
-              "MaxFanSpeed": 80,
-              "MinFanSpeed": 0,
-              "Name": "PCH - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/lpc/nct6687d/temperature/3",
-                "IsHidden": false,
-                "Name": "PCH",
-                "NickName": "PCH"
-              },
-              "Step": 2.0
-            },
-            {
-              "Deadband": 3.0,
-              "IdleTemperature": 37.0,
-              "IsHidden": false,
-              "LoadTemperature": 75.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 40,
-              "Name": "CPU Core Average - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/intelcpu/0/temperature/34",
-                "IsHidden": false,
-                "Name": "Core Average",
-                "NickName": "Core Average"
-              },
-              "Step": 2.0
             },
             {
               "IsHidden": false,
@@ -540,21 +462,45 @@
               "SelectedMixFunction": 0
             },
             {
-              "Deadband": 3.0,
-              "IdleTemperature": 40.0,
               "IsHidden": false,
-              "LoadTemperature": 75.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
-              "Name": "CPU Core Max - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/intelcpu/0/temperature/33",
-                "IsHidden": false,
-                "Name": "Core Max",
-                "NickName": "Core Max"
-              },
-              "Step": 2.0
+              "Name": "CPU+AIO - Mix",
+              "SelectedFanCurves": [
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 31.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 37.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "AIO Liquid - Auto",
+                  "SelectedResponseTime": 1,
+                  "SelectedTempSource": {
+                    "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+                    "IsHidden": false,
+                    "Name": "Liquid - Kraken",
+                    "NickName": "Liquid - Kraken"
+                  },
+                  "Step": 5.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 37.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 75.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 40,
+                  "Name": "CPU Core Average - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "/intelcpu/0/temperature/34",
+                    "IsHidden": false,
+                    "Name": "Core Average",
+                    "NickName": "Core Average"
+                  },
+                  "Step": 2.0
+                }
+              ],
+              "SelectedMixFunction": 0
             }
           ],
           "SelectedMixFunction": 0
@@ -587,23 +533,6 @@
           "SelectedFanCurves": [
             {
               "Deadband": 3.0,
-              "IdleTemperature": 31.0,
-              "IsHidden": false,
-              "LoadTemperature": 37.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
-              "Name": "AIO Liquid - Auto",
-              "SelectedResponseTime": 1,
-              "SelectedTempSource": {
-                "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-                "IsHidden": false,
-                "Name": "Liquid - Kraken",
-                "NickName": "Liquid - Kraken"
-              },
-              "Step": 5.0
-            },
-            {
-              "Deadband": 3.0,
               "IdleTemperature": 37.0,
               "IsHidden": false,
               "LoadTemperature": 65.0,
@@ -618,40 +547,6 @@
                 "NickName": "GPU"
               },
               "Step": 5.0
-            },
-            {
-              "Deadband": 3.0,
-              "IdleTemperature": 67.0,
-              "IsHidden": false,
-              "LoadTemperature": 72.0,
-              "MaxFanSpeed": 80,
-              "MinFanSpeed": 0,
-              "Name": "PCH - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/lpc/nct6687d/temperature/3",
-                "IsHidden": false,
-                "Name": "PCH",
-                "NickName": "PCH"
-              },
-              "Step": 2.0
-            },
-            {
-              "Deadband": 3.0,
-              "IdleTemperature": 37.0,
-              "IsHidden": false,
-              "LoadTemperature": 75.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 40,
-              "Name": "CPU Core Average - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/intelcpu/0/temperature/34",
-                "IsHidden": false,
-                "Name": "Core Average",
-                "NickName": "Core Average"
-              },
-              "Step": 2.0
             },
             {
               "IsHidden": false,
@@ -678,21 +573,45 @@
               "SelectedMixFunction": 0
             },
             {
-              "Deadband": 3.0,
-              "IdleTemperature": 40.0,
               "IsHidden": false,
-              "LoadTemperature": 75.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
-              "Name": "CPU Core Max - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/intelcpu/0/temperature/33",
-                "IsHidden": false,
-                "Name": "Core Max",
-                "NickName": "Core Max"
-              },
-              "Step": 2.0
+              "Name": "CPU+AIO - Mix",
+              "SelectedFanCurves": [
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 31.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 37.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 0,
+                  "Name": "AIO Liquid - Auto",
+                  "SelectedResponseTime": 1,
+                  "SelectedTempSource": {
+                    "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+                    "IsHidden": false,
+                    "Name": "Liquid - Kraken",
+                    "NickName": "Liquid - Kraken"
+                  },
+                  "Step": 5.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 37.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 75.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 40,
+                  "Name": "CPU Core Average - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "/intelcpu/0/temperature/34",
+                    "IsHidden": false,
+                    "Name": "Core Average",
+                    "NickName": "Core Average"
+                  },
+                  "Step": 2.0
+                }
+              ],
+              "SelectedMixFunction": 0
             }
           ],
           "SelectedMixFunction": 0
@@ -746,23 +665,6 @@
         "SelectedFanCurves": [
           {
             "Deadband": 3.0,
-            "IdleTemperature": 31.0,
-            "IsHidden": false,
-            "LoadTemperature": 37.0,
-            "MaxFanSpeed": 100,
-            "MinFanSpeed": 0,
-            "Name": "AIO Liquid - Auto",
-            "SelectedResponseTime": 1,
-            "SelectedTempSource": {
-              "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-              "IsHidden": false,
-              "Name": "Liquid - Kraken",
-              "NickName": "Liquid - Kraken"
-            },
-            "Step": 5.0
-          },
-          {
-            "Deadband": 3.0,
             "IdleTemperature": 37.0,
             "IsHidden": false,
             "LoadTemperature": 65.0,
@@ -777,40 +679,6 @@
               "NickName": "GPU"
             },
             "Step": 5.0
-          },
-          {
-            "Deadband": 3.0,
-            "IdleTemperature": 67.0,
-            "IsHidden": false,
-            "LoadTemperature": 72.0,
-            "MaxFanSpeed": 80,
-            "MinFanSpeed": 0,
-            "Name": "PCH - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "/lpc/nct6687d/temperature/3",
-              "IsHidden": false,
-              "Name": "PCH",
-              "NickName": "PCH"
-            },
-            "Step": 2.0
-          },
-          {
-            "Deadband": 3.0,
-            "IdleTemperature": 37.0,
-            "IsHidden": false,
-            "LoadTemperature": 75.0,
-            "MaxFanSpeed": 100,
-            "MinFanSpeed": 40,
-            "Name": "CPU Core Average - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "/intelcpu/0/temperature/34",
-              "IsHidden": false,
-              "Name": "Core Average",
-              "NickName": "Core Average"
-            },
-            "Step": 2.0
           },
           {
             "IsHidden": false,
@@ -837,21 +705,45 @@
             "SelectedMixFunction": 0
           },
           {
-            "Deadband": 3.0,
-            "IdleTemperature": 40.0,
             "IsHidden": false,
-            "LoadTemperature": 75.0,
-            "MaxFanSpeed": 100,
-            "MinFanSpeed": 0,
-            "Name": "CPU Core Max - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "/intelcpu/0/temperature/33",
-              "IsHidden": false,
-              "Name": "Core Max",
-              "NickName": "Core Max"
-            },
-            "Step": 2.0
+            "Name": "CPU+AIO - Mix",
+            "SelectedFanCurves": [
+              {
+                "Deadband": 3.0,
+                "IdleTemperature": 31.0,
+                "IsHidden": false,
+                "LoadTemperature": 37.0,
+                "MaxFanSpeed": 100,
+                "MinFanSpeed": 0,
+                "Name": "AIO Liquid - Auto",
+                "SelectedResponseTime": 1,
+                "SelectedTempSource": {
+                  "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+                  "IsHidden": false,
+                  "Name": "Liquid - Kraken",
+                  "NickName": "Liquid - Kraken"
+                },
+                "Step": 5.0
+              },
+              {
+                "Deadband": 3.0,
+                "IdleTemperature": 37.0,
+                "IsHidden": false,
+                "LoadTemperature": 75.0,
+                "MaxFanSpeed": 100,
+                "MinFanSpeed": 40,
+                "Name": "CPU Core Average - Auto",
+                "SelectedResponseTime": 2,
+                "SelectedTempSource": {
+                  "Identifier": "/intelcpu/0/temperature/34",
+                  "IsHidden": false,
+                  "Name": "Core Average",
+                  "NickName": "Core Average"
+                },
+                "Step": 2.0
+              }
+            ],
+            "SelectedMixFunction": 0
           }
         ],
         "SelectedMixFunction": 0
