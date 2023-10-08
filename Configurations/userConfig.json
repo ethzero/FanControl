@@ -170,7 +170,7 @@
           "IsHidden": false,
           "LoadTemperature": 65.0,
           "MaxFanSpeed": 100,
-          "MinFanSpeed": 40,
+          "MinFanSpeed": 20,
           "Name": "Graphic Card 3080 - Auto",
           "SelectedResponseTime": 2,
           "SelectedTempSource": {
@@ -209,7 +209,7 @@
           "IsHidden": false,
           "LoadTemperature": 65.0,
           "MaxFanSpeed": 100,
-          "MinFanSpeed": 40,
+          "MinFanSpeed": 20,
           "Name": "Graphic Card 3080 - Auto",
           "SelectedResponseTime": 2,
           "SelectedTempSource": {
@@ -250,9 +250,9 @@
               "Deadband": 3.0,
               "IdleTemperature": 31.0,
               "IsHidden": false,
-              "LoadTemperature": 37.0,
+              "LoadTemperature": 42.0,
               "MaxFanSpeed": 100,
-              "MinFanSpeed": 0,
+              "MinFanSpeed": 20,
               "Name": "AIO Liquid - Auto",
               "SelectedResponseTime": 1,
               "SelectedTempSource": {
@@ -265,11 +265,11 @@
             },
             {
               "Deadband": 3.0,
-              "IdleTemperature": 37.0,
+              "IdleTemperature": 40.0,
               "IsHidden": false,
               "LoadTemperature": 75.0,
               "MaxFanSpeed": 100,
-              "MinFanSpeed": 40,
+              "MinFanSpeed": 20,
               "Name": "CPU Core Average - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -315,7 +315,7 @@
               "IsHidden": false,
               "LoadTemperature": 65.0,
               "MaxFanSpeed": 100,
-              "MinFanSpeed": 40,
+              "MinFanSpeed": 20,
               "Name": "Graphic Card 3080 - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -332,11 +332,11 @@
               "SelectedFanCurves": [
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 67.0,
+                  "IdleTemperature": 70.0,
                   "IsHidden": false,
-                  "LoadTemperature": 72.0,
-                  "MaxFanSpeed": 80,
-                  "MinFanSpeed": 0,
+                  "LoadTemperature": 75.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 20,
                   "Name": "PCH - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
@@ -358,9 +358,9 @@
                   "Deadband": 3.0,
                   "IdleTemperature": 31.0,
                   "IsHidden": false,
-                  "LoadTemperature": 37.0,
+                  "LoadTemperature": 42.0,
                   "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
+                  "MinFanSpeed": 20,
                   "Name": "AIO Liquid - Auto",
                   "SelectedResponseTime": 1,
                   "SelectedTempSource": {
@@ -373,11 +373,11 @@
                 },
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 37.0,
+                  "IdleTemperature": 40.0,
                   "IsHidden": false,
                   "LoadTemperature": 75.0,
                   "MaxFanSpeed": 100,
-                  "MinFanSpeed": 40,
+                  "MinFanSpeed": 20,
                   "Name": "CPU Core Average - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
@@ -426,7 +426,7 @@
               "IsHidden": false,
               "LoadTemperature": 65.0,
               "MaxFanSpeed": 100,
-              "MinFanSpeed": 40,
+              "MinFanSpeed": 20,
               "Name": "Graphic Card 3080 - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -443,11 +443,11 @@
               "SelectedFanCurves": [
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 67.0,
+                  "IdleTemperature": 70.0,
                   "IsHidden": false,
-                  "LoadTemperature": 72.0,
-                  "MaxFanSpeed": 80,
-                  "MinFanSpeed": 0,
+                  "LoadTemperature": 75.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 20,
                   "Name": "PCH - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
@@ -469,9 +469,9 @@
                   "Deadband": 3.0,
                   "IdleTemperature": 31.0,
                   "IsHidden": false,
-                  "LoadTemperature": 37.0,
+                  "LoadTemperature": 42.0,
                   "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
+                  "MinFanSpeed": 20,
                   "Name": "AIO Liquid - Auto",
                   "SelectedResponseTime": 1,
                   "SelectedTempSource": {
@@ -484,11 +484,11 @@
                 },
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 37.0,
+                  "IdleTemperature": 40.0,
                   "IsHidden": false,
                   "LoadTemperature": 75.0,
                   "MaxFanSpeed": 100,
-                  "MinFanSpeed": 40,
+                  "MinFanSpeed": 20,
                   "Name": "CPU Core Average - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
@@ -537,7 +537,7 @@
               "IsHidden": false,
               "LoadTemperature": 65.0,
               "MaxFanSpeed": 100,
-              "MinFanSpeed": 40,
+              "MinFanSpeed": 20,
               "Name": "Graphic Card 3080 - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
@@ -554,11 +554,11 @@
               "SelectedFanCurves": [
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 67.0,
+                  "IdleTemperature": 70.0,
                   "IsHidden": false,
-                  "LoadTemperature": 72.0,
-                  "MaxFanSpeed": 80,
-                  "MinFanSpeed": 0,
+                  "LoadTemperature": 75.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 20,
                   "Name": "PCH - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
@@ -580,9 +580,9 @@
                   "Deadband": 3.0,
                   "IdleTemperature": 31.0,
                   "IsHidden": false,
-                  "LoadTemperature": 37.0,
+                  "LoadTemperature": 42.0,
                   "MaxFanSpeed": 100,
-                  "MinFanSpeed": 0,
+                  "MinFanSpeed": 20,
                   "Name": "AIO Liquid - Auto",
                   "SelectedResponseTime": 1,
                   "SelectedTempSource": {
@@ -595,11 +595,11 @@
                 },
                 {
                   "Deadband": 3.0,
-                  "IdleTemperature": 37.0,
+                  "IdleTemperature": 40.0,
                   "IsHidden": false,
                   "LoadTemperature": 75.0,
                   "MaxFanSpeed": 100,
-                  "MinFanSpeed": 40,
+                  "MinFanSpeed": 20,
                   "Name": "CPU Core Average - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
@@ -669,7 +669,7 @@
             "IsHidden": false,
             "LoadTemperature": 65.0,
             "MaxFanSpeed": 100,
-            "MinFanSpeed": 40,
+            "MinFanSpeed": 20,
             "Name": "Graphic Card 3080 - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
@@ -686,11 +686,11 @@
             "SelectedFanCurves": [
               {
                 "Deadband": 3.0,
-                "IdleTemperature": 67.0,
+                "IdleTemperature": 70.0,
                 "IsHidden": false,
-                "LoadTemperature": 72.0,
-                "MaxFanSpeed": 80,
-                "MinFanSpeed": 0,
+                "LoadTemperature": 75.0,
+                "MaxFanSpeed": 100,
+                "MinFanSpeed": 20,
                 "Name": "PCH - Auto",
                 "SelectedResponseTime": 2,
                 "SelectedTempSource": {
@@ -712,9 +712,9 @@
                 "Deadband": 3.0,
                 "IdleTemperature": 31.0,
                 "IsHidden": false,
-                "LoadTemperature": 37.0,
+                "LoadTemperature": 42.0,
                 "MaxFanSpeed": 100,
-                "MinFanSpeed": 0,
+                "MinFanSpeed": 20,
                 "Name": "AIO Liquid - Auto",
                 "SelectedResponseTime": 1,
                 "SelectedTempSource": {
@@ -727,11 +727,11 @@
               },
               {
                 "Deadband": 3.0,
-                "IdleTemperature": 37.0,
+                "IdleTemperature": 40.0,
                 "IsHidden": false,
                 "LoadTemperature": 75.0,
                 "MaxFanSpeed": 100,
-                "MinFanSpeed": 40,
+                "MinFanSpeed": 20,
                 "Name": "CPU Core Average - Auto",
                 "SelectedResponseTime": 2,
                 "SelectedTempSource": {
@@ -756,9 +756,9 @@
             "Deadband": 3.0,
             "IdleTemperature": 31.0,
             "IsHidden": false,
-            "LoadTemperature": 37.0,
+            "LoadTemperature": 42.0,
             "MaxFanSpeed": 100,
-            "MinFanSpeed": 0,
+            "MinFanSpeed": 20,
             "Name": "AIO Liquid - Auto",
             "SelectedResponseTime": 1,
             "SelectedTempSource": {
@@ -771,11 +771,11 @@
           },
           {
             "Deadband": 3.0,
-            "IdleTemperature": 37.0,
+            "IdleTemperature": 40.0,
             "IsHidden": false,
             "LoadTemperature": 75.0,
             "MaxFanSpeed": 100,
-            "MinFanSpeed": 40,
+            "MinFanSpeed": 20,
             "Name": "CPU Core Average - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
@@ -795,11 +795,11 @@
         "SelectedFanCurves": [
           {
             "Deadband": 3.0,
-            "IdleTemperature": 67.0,
+            "IdleTemperature": 70.0,
             "IsHidden": false,
-            "LoadTemperature": 72.0,
-            "MaxFanSpeed": 80,
-            "MinFanSpeed": 0,
+            "LoadTemperature": 75.0,
+            "MaxFanSpeed": 100,
+            "MinFanSpeed": 20,
             "Name": "PCH - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
@@ -817,9 +817,9 @@
         "Deadband": 3.0,
         "IdleTemperature": 31.0,
         "IsHidden": false,
-        "LoadTemperature": 37.0,
+        "LoadTemperature": 42.0,
         "MaxFanSpeed": 100,
-        "MinFanSpeed": 0,
+        "MinFanSpeed": 20,
         "Name": "AIO Liquid - Auto",
         "SelectedResponseTime": 1,
         "SelectedTempSource": {
@@ -836,7 +836,7 @@
         "IsHidden": false,
         "LoadTemperature": 65.0,
         "MaxFanSpeed": 100,
-        "MinFanSpeed": 40,
+        "MinFanSpeed": 20,
         "Name": "Graphic Card 3080 - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
@@ -849,11 +849,11 @@
       },
       {
         "Deadband": 3.0,
-        "IdleTemperature": 67.0,
+        "IdleTemperature": 70.0,
         "IsHidden": false,
-        "LoadTemperature": 72.0,
-        "MaxFanSpeed": 80,
-        "MinFanSpeed": 0,
+        "LoadTemperature": 75.0,
+        "MaxFanSpeed": 100,
+        "MinFanSpeed": 20,
         "Name": "PCH - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
@@ -866,11 +866,11 @@
       },
       {
         "Deadband": 3.0,
-        "IdleTemperature": 37.0,
+        "IdleTemperature": 40.0,
         "IsHidden": false,
         "LoadTemperature": 75.0,
         "MaxFanSpeed": 100,
-        "MinFanSpeed": 40,
+        "MinFanSpeed": 20,
         "Name": "CPU Core Average - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
@@ -883,11 +883,11 @@
       },
       {
         "Deadband": 3.0,
-        "IdleTemperature": 40.0,
+        "IdleTemperature": 45.0,
         "IsHidden": false,
         "LoadTemperature": 75.0,
         "MaxFanSpeed": 100,
-        "MinFanSpeed": 0,
+        "MinFanSpeed": 20,
         "Name": "CPU Core Max - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
