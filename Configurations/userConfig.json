@@ -290,117 +290,6 @@
       {
         "Enable": true,
         "ForceApply": false,
-        "Identifier": "NzxtKrakenPlugin/fancontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
-        "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 20,
-        "Name": "Fan - Kraken",
-        "NickName": "NZXT Kraken - Exhaust Top Fans",
-        "PairedFanSensor": {
-          "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
-          "IsHidden": false,
-          "Name": "Fan - Kraken",
-          "NickName": "NZXT Kraken - Exhaust Top Fans"
-        },
-        "SelectedCommandStepDown": 0.5,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
-          "IsHidden": false,
-          "Name": "Max Temperature - Mix",
-          "SelectedFanCurves": [
-            {
-              "Deadband": 3.0,
-              "IdleTemperature": 37.0,
-              "IsHidden": false,
-              "LoadTemperature": 65.0,
-              "MaxFanSpeed": 100,
-              "MinFanSpeed": 20,
-              "Name": "Graphic Card 3080 - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-                "IsHidden": false,
-                "Name": "GPU",
-                "NickName": "GPU"
-              },
-              "Step": 5.0
-            },
-            {
-              "IsHidden": false,
-              "Name": "Motherboard Components - Max",
-              "SelectedFanCurves": [
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 70.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 75.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 20,
-                  "Name": "PCH - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "/lpc/nct6687d/temperature/3",
-                    "IsHidden": false,
-                    "Name": "PCH",
-                    "NickName": "PCH"
-                  },
-                  "Step": 2.0
-                }
-              ],
-              "SelectedMixFunction": 0
-            },
-            {
-              "IsHidden": false,
-              "Name": "CPU+AIO - Mix",
-              "SelectedFanCurves": [
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 31.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 42.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 20,
-                  "Name": "AIO Liquid - Auto",
-                  "SelectedResponseTime": 1,
-                  "SelectedTempSource": {
-                    "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-                    "IsHidden": false,
-                    "Name": "Liquid - Kraken",
-                    "NickName": "Liquid - Kraken"
-                  },
-                  "Step": 5.0
-                },
-                {
-                  "Deadband": 3.0,
-                  "IdleTemperature": 40.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 75.0,
-                  "MaxFanSpeed": 100,
-                  "MinFanSpeed": 20,
-                  "Name": "CPU Core Average - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "/intelcpu/0/temperature/34",
-                    "IsHidden": false,
-                    "Name": "Core Average",
-                    "NickName": "Core Average"
-                  },
-                  "Step": 2.0
-                }
-              ],
-              "SelectedMixFunction": 0
-            }
-          ],
-          "SelectedMixFunction": 0
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 6,
-        "SelectedStop": 0
-      },
-      {
-        "Enable": true,
-        "ForceApply": false,
         "Identifier": "Lian Li/Controller_0 _Channel_0",
         "IsHidden": false,
         "ManualControl": false,
@@ -618,6 +507,117 @@
         },
         "SelectedOffset": 0,
         "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "NzxtKrakenPlugin/fancontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 20,
+        "Name": "Fan - Kraken",
+        "NickName": "NZXT Kraken - Exhaust Top Fans",
+        "PairedFanSensor": {
+          "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
+          "IsHidden": false,
+          "Name": "Fan - Kraken",
+          "NickName": "NZXT Kraken - Exhaust Top Fans"
+        },
+        "SelectedCommandStepDown": 0.5,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "IsHidden": false,
+          "Name": "Max Temperature - Mix",
+          "SelectedFanCurves": [
+            {
+              "Deadband": 3.0,
+              "IdleTemperature": 37.0,
+              "IsHidden": false,
+              "LoadTemperature": 65.0,
+              "MaxFanSpeed": 100,
+              "MinFanSpeed": 20,
+              "Name": "Graphic Card 3080 - Auto",
+              "SelectedResponseTime": 2,
+              "SelectedTempSource": {
+                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              },
+              "Step": 5.0
+            },
+            {
+              "IsHidden": false,
+              "Name": "Motherboard Components - Max",
+              "SelectedFanCurves": [
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 70.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 75.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 20,
+                  "Name": "PCH - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "/lpc/nct6687d/temperature/3",
+                    "IsHidden": false,
+                    "Name": "PCH",
+                    "NickName": "PCH"
+                  },
+                  "Step": 2.0
+                }
+              ],
+              "SelectedMixFunction": 0
+            },
+            {
+              "IsHidden": false,
+              "Name": "CPU+AIO - Mix",
+              "SelectedFanCurves": [
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 31.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 42.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 20,
+                  "Name": "AIO Liquid - Auto",
+                  "SelectedResponseTime": 1,
+                  "SelectedTempSource": {
+                    "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
+                    "IsHidden": false,
+                    "Name": "Liquid - Kraken",
+                    "NickName": "Liquid - Kraken"
+                  },
+                  "Step": 5.0
+                },
+                {
+                  "Deadband": 3.0,
+                  "IdleTemperature": 40.0,
+                  "IsHidden": false,
+                  "LoadTemperature": 75.0,
+                  "MaxFanSpeed": 100,
+                  "MinFanSpeed": 20,
+                  "Name": "CPU Core Average - Auto",
+                  "SelectedResponseTime": 2,
+                  "SelectedTempSource": {
+                    "Identifier": "/intelcpu/0/temperature/34",
+                    "IsHidden": false,
+                    "Name": "Core Average",
+                    "NickName": "Core Average"
+                  },
+                  "Step": 2.0
+                }
+              ],
+              "SelectedMixFunction": 0
+            }
+          ],
+          "SelectedMixFunction": 0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 6,
         "SelectedStop": 0
       },
       {
