@@ -1,5 +1,5 @@
 {
-  "__VERSION__": "174",
+  "__VERSION__": "175",
   "Main": {
     "Controls": [
       {
@@ -1004,6 +1004,7 @@
     "SelectedTheme": "Dark",
     "ShowHiddenCards": false,
     "SyncThemeWithWindows": false,
+    "SyncTrayIconColorWithWindows": false,
     "TemperatureSensors": [],
     "TrayIconColor": "#FF000000",
     "TrayIcons": []
