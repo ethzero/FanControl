@@ -1,9 +1,8 @@
 {
-  "__VERSION__": "183",
+  "__VERSION__": "181",
   "Main": {
     "Controls": [
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6687d/control/0",
@@ -22,7 +21,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6687d/control/1",
@@ -41,7 +39,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6687d/control/2",
@@ -60,7 +57,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6687d/control/3",
@@ -79,7 +75,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6687d/control/4",
@@ -98,7 +93,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6687d/control/5",
@@ -117,7 +111,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6687d/control/6",
@@ -136,7 +129,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "/lpc/nct6687d/control/7",
@@ -155,7 +147,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": true,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-GA102-A/control/0",
@@ -174,7 +165,6 @@
         "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
-          "CommandMode": 0,
           "Deadband": 3.0,
           "IdleTemperature": 37.0,
           "IsHidden": false,
@@ -196,7 +186,6 @@
         "SelectedStop": 40
       },
       {
-        "Calibration": null,
         "Enable": true,
         "ForceApply": false,
         "Identifier": "NVApiWrapper/0-GA102-A/control/1",
@@ -215,7 +204,6 @@
         "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
-          "CommandMode": 0,
           "Deadband": 3.0,
           "IdleTemperature": 37.0,
           "IsHidden": false,
@@ -237,7 +225,6 @@
         "SelectedStop": 45
       },
       {
-        "Calibration": null,
         "Enable": true,
         "ForceApply": false,
         "Identifier": "NzxtKrakenPlugin/pumpcontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -256,12 +243,10 @@
         "SelectedCommandStepDown": 8.0,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
-          "CommandMode": 0,
           "IsHidden": false,
           "Name": "CPU+AIO - Mix",
           "SelectedFanCurves": [
             {
-              "CommandMode": 0,
               "Deadband": 3.0,
               "IdleTemperature": 31.0,
               "IsHidden": false,
@@ -279,7 +264,6 @@
               "Step": 5.0
             },
             {
-              "CommandMode": 0,
               "Deadband": 3.0,
               "IdleTemperature": 40.0,
               "IsHidden": false,
@@ -304,7 +288,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": true,
         "ForceApply": false,
         "Identifier": "Lian Li/Controller_0 _Channel_0",
@@ -323,12 +306,10 @@
         "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
-          "CommandMode": 0,
           "IsHidden": false,
           "Name": "Max Temperature - Mix",
           "SelectedFanCurves": [
             {
-              "CommandMode": 0,
               "Deadband": 3.0,
               "IdleTemperature": 37.0,
               "IsHidden": false,
@@ -346,12 +327,10 @@
               "Step": 5.0
             },
             {
-              "CommandMode": 0,
               "IsHidden": false,
               "Name": "Motherboard Components - Max",
               "SelectedFanCurves": [
                 {
-                  "CommandMode": 0,
                   "Deadband": 3.0,
                   "IdleTemperature": 70.0,
                   "IsHidden": false,
@@ -372,12 +351,10 @@
               "SelectedMixFunction": 0
             },
             {
-              "CommandMode": 0,
               "IsHidden": false,
               "Name": "CPU+AIO - Mix",
               "SelectedFanCurves": [
                 {
-                  "CommandMode": 0,
                   "Deadband": 3.0,
                   "IdleTemperature": 31.0,
                   "IsHidden": false,
@@ -395,7 +372,6 @@
                   "Step": 5.0
                 },
                 {
-                  "CommandMode": 0,
                   "Deadband": 3.0,
                   "IdleTemperature": 40.0,
                   "IsHidden": false,
@@ -423,7 +399,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": true,
         "ForceApply": false,
         "Identifier": "Lian Li/Controller_0 _Channel_1",
@@ -442,12 +417,10 @@
         "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
-          "CommandMode": 0,
           "IsHidden": false,
           "Name": "Max Temperature - Mix",
           "SelectedFanCurves": [
             {
-              "CommandMode": 0,
               "Deadband": 3.0,
               "IdleTemperature": 37.0,
               "IsHidden": false,
@@ -465,12 +438,10 @@
               "Step": 5.0
             },
             {
-              "CommandMode": 0,
               "IsHidden": false,
               "Name": "Motherboard Components - Max",
               "SelectedFanCurves": [
                 {
-                  "CommandMode": 0,
                   "Deadband": 3.0,
                   "IdleTemperature": 70.0,
                   "IsHidden": false,
@@ -491,12 +462,10 @@
               "SelectedMixFunction": 0
             },
             {
-              "CommandMode": 0,
               "IsHidden": false,
               "Name": "CPU+AIO - Mix",
               "SelectedFanCurves": [
                 {
-                  "CommandMode": 0,
                   "Deadband": 3.0,
                   "IdleTemperature": 31.0,
                   "IsHidden": false,
@@ -514,7 +483,6 @@
                   "Step": 5.0
                 },
                 {
-                  "CommandMode": 0,
                   "Deadband": 3.0,
                   "IdleTemperature": 40.0,
                   "IsHidden": false,
@@ -542,7 +510,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": true,
         "ForceApply": false,
         "Identifier": "NzxtKrakenPlugin/fancontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
@@ -561,12 +528,10 @@
         "SelectedCommandStepDown": 0.5,
         "SelectedCommandStepUp": 8.0,
         "SelectedFanCurve": {
-          "CommandMode": 0,
           "IsHidden": false,
           "Name": "Max Temperature - Mix",
           "SelectedFanCurves": [
             {
-              "CommandMode": 0,
               "Deadband": 3.0,
               "IdleTemperature": 37.0,
               "IsHidden": false,
@@ -584,12 +549,10 @@
               "Step": 5.0
             },
             {
-              "CommandMode": 0,
               "IsHidden": false,
               "Name": "Motherboard Components - Max",
               "SelectedFanCurves": [
                 {
-                  "CommandMode": 0,
                   "Deadband": 3.0,
                   "IdleTemperature": 70.0,
                   "IsHidden": false,
@@ -610,12 +573,10 @@
               "SelectedMixFunction": 0
             },
             {
-              "CommandMode": 0,
               "IsHidden": false,
               "Name": "CPU+AIO - Mix",
               "SelectedFanCurves": [
                 {
-                  "CommandMode": 0,
                   "Deadband": 3.0,
                   "IdleTemperature": 31.0,
                   "IsHidden": false,
@@ -633,7 +594,6 @@
                   "Step": 5.0
                 },
                 {
-                  "CommandMode": 0,
                   "Deadband": 3.0,
                   "IdleTemperature": 40.0,
                   "IsHidden": false,
@@ -661,7 +621,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "Lian Li/Controller_0 _Channel_2",
@@ -680,7 +639,6 @@
         "SelectedStop": 0
       },
       {
-        "Calibration": null,
         "Enable": false,
         "ForceApply": false,
         "Identifier": "Lian Li/Controller_0 _Channel_3",
@@ -702,12 +660,10 @@
     "CustomSensors": [],
     "FanCurves": [
       {
-        "CommandMode": 0,
         "IsHidden": false,
         "Name": "Max Temperature - Mix",
         "SelectedFanCurves": [
           {
-            "CommandMode": 0,
             "Deadband": 3.0,
             "IdleTemperature": 37.0,
             "IsHidden": false,
@@ -725,12 +681,10 @@
             "Step": 5.0
           },
           {
-            "CommandMode": 0,
             "IsHidden": false,
             "Name": "Motherboard Components - Max",
             "SelectedFanCurves": [
               {
-                "CommandMode": 0,
                 "Deadband": 3.0,
                 "IdleTemperature": 70.0,
                 "IsHidden": false,
@@ -751,12 +705,10 @@
             "SelectedMixFunction": 0
           },
           {
-            "CommandMode": 0,
             "IsHidden": false,
             "Name": "CPU+AIO - Mix",
             "SelectedFanCurves": [
               {
-                "CommandMode": 0,
                 "Deadband": 3.0,
                 "IdleTemperature": 31.0,
                 "IsHidden": false,
@@ -774,7 +726,6 @@
                 "Step": 5.0
               },
               {
-                "CommandMode": 0,
                 "Deadband": 3.0,
                 "IdleTemperature": 40.0,
                 "IsHidden": false,
@@ -798,12 +749,10 @@
         "SelectedMixFunction": 0
       },
       {
-        "CommandMode": 0,
         "IsHidden": false,
         "Name": "CPU+AIO - Mix",
         "SelectedFanCurves": [
           {
-            "CommandMode": 0,
             "Deadband": 3.0,
             "IdleTemperature": 31.0,
             "IsHidden": false,
@@ -821,7 +770,6 @@
             "Step": 5.0
           },
           {
-            "CommandMode": 0,
             "Deadband": 3.0,
             "IdleTemperature": 40.0,
             "IsHidden": false,
@@ -842,12 +790,10 @@
         "SelectedMixFunction": 0
       },
       {
-        "CommandMode": 0,
         "IsHidden": false,
         "Name": "Motherboard Components - Max",
         "SelectedFanCurves": [
           {
-            "CommandMode": 0,
             "Deadband": 3.0,
             "IdleTemperature": 70.0,
             "IsHidden": false,
@@ -868,7 +814,6 @@
         "SelectedMixFunction": 0
       },
       {
-        "CommandMode": 0,
         "Deadband": 3.0,
         "IdleTemperature": 31.0,
         "IsHidden": false,
@@ -886,7 +831,6 @@
         "Step": 5.0
       },
       {
-        "CommandMode": 0,
         "Deadband": 3.0,
         "IdleTemperature": 37.0,
         "IsHidden": false,
@@ -904,7 +848,6 @@
         "Step": 5.0
       },
       {
-        "CommandMode": 0,
         "Deadband": 3.0,
         "IdleTemperature": 70.0,
         "IsHidden": false,
@@ -922,7 +865,6 @@
         "Step": 2.0
       },
       {
-        "CommandMode": 0,
         "Deadband": 3.0,
         "IdleTemperature": 40.0,
         "IsHidden": false,
@@ -940,7 +882,6 @@
         "Step": 2.0
       },
       {
-        "CommandMode": 0,
         "Deadband": 3.0,
         "IdleTemperature": 45.0,
         "IsHidden": false,
