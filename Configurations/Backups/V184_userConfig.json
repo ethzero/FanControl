@@ -1,5 +1,5 @@
 {
-  "__VERSION__": "185",
+  "__VERSION__": "184",
   "Main": {
     "Controls": [
       {
@@ -1056,7 +1056,6 @@
         "NickName": "Uni Controller #1 Ch. 4 - NC"
       }
     ],
-    "HideCalibration": false,
     "HideFanSpeedCards": true,
     "HorizontalUIOrientation": false,
     "PrimaryColor": "#FF725B8A",
