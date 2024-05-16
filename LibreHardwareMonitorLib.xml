@@ -145,6 +145,19 @@
             Sets the default fan speed.
             </summary>
         </member>
+        <member name="M:LibreHardwareMonitor.Hardware.Gpu.AmdGpu.GetAdlSensor(LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogData,LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogDataOutput,LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogSensors,LibreHardwareMonitor.Hardware.Sensor,System.Single,System.Boolean)">
+             <summary>
+             Gets a sensor value.
+             </summary>
+            
+             <param name="adlPMLogData">Current pmlog struct, used with pmlog-support/start.</param>
+             <param name="od8Log">Legacy pmlogdataoutput struct, used with ADL2_New_QueryPMLogData_Get.</param>
+             <param name="sensorType">Type of the sensor.</param>
+             <param name="sensor">The sensor.</param>
+             <param name="factor">The factor.</param>
+             <param name="reset">If set to <c>true</c>, resets the sensor value to <c>null</c>.</param>
+             <returns>true if sensor is supported, false otherwise</returns>
+        </member>
         <member name="M:LibreHardwareMonitor.Hardware.Gpu.AmdGpu.GetODNTemperature(LibreHardwareMonitor.Interop.AtiAdlxx.ADLODNTemperatureType,LibreHardwareMonitor.Hardware.Sensor,System.Double,System.Double,System.Boolean)">
             <summary>
             Gets the OverdriveN temperature.
@@ -153,25 +166,6 @@
             <param name="sensor">The sensor.</param>
             <param name="minTemperature">The minimum temperature.</param>
             <param name="scale">The scale.</param>
-            <param name="reset">If set to <c>true</c>, resets the sensor value to <c>null</c>.</param>
-        </member>
-        <member name="M:LibreHardwareMonitor.Hardware.Gpu.AmdGpu.GetPMLog(LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogDataOutput,LibreHardwareMonitor.Interop.AtiAdlxx.ADLSensorType,LibreHardwareMonitor.Hardware.Sensor,System.Single,System.Boolean)">
-            <summary>
-            Gets a PMLog sensor value.
-            </summary>
-            <param name="data">The data.</param>
-            <param name="sensorType">Type of the sensor.</param>
-            <param name="sensor">The sensor.</param>
-            <param name="factor">The factor.</param>
-            <param name="reset">If set to <c>true</c>, resets the sensor value to <c>null</c>.</param>
-        </member>
-        <member name="M:LibreHardwareMonitor.Hardware.Gpu.AmdGpu.GetPMLog(LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogSensors,LibreHardwareMonitor.Hardware.Sensor,System.Single,System.Boolean)">
-            <summary>
-            Gets a PMLog sensor value.
-            </summary>
-            <param name="sensorType">Type of the sensor.</param>
-            <param name="sensor">The sensor.</param>
-            <param name="factor">The factor.</param>
             <param name="reset">If set to <c>true</c>, resets the sensor value to <c>null</c>.</param>
         </member>
         <member name="M:LibreHardwareMonitor.Hardware.Gpu.AmdGpu.GetOD6Power(LibreHardwareMonitor.Interop.AtiAdlxx.ADLODNCurrentPowerType,LibreHardwareMonitor.Hardware.Sensor)">
@@ -1459,7 +1453,9 @@
         </member>
         <member name="P:LibreHardwareMonitor.Hardware.MemoryDevice.Size">
             <summary>
-            Gets the size of the memory device. If the value is 0, no memory device is installed in the socket.
+            Gets the size of the memory device.
+            If the value is 0, no memory device is installed in the socket.
+            If the value is 0xFFFF, the size is unknown.
             </summary>
         </member>
         <member name="P:LibreHardwareMonitor.Hardware.MemoryDevice.Speed">
@@ -1786,6 +1782,33 @@
         </member>
         <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLPMLogData.ulReserved">
             Reserved
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iMemorySize">
+            Memory size in bytes.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.strMemoryType">
+            Memory type in string.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iMemoryBandwidth">
+            Highest default performance level Memory bandwidth in Mbytes/s
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iHyperMemorySize">
+            HyperMemory size in bytes.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iInvisibleMemorySize">
+            Invisible Memory size in bytes.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iVisibleMemorySize">
+            Visible Memory size in bytes.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iVramVendorRevId">
+            Vram vendor ID
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iMemoryBandwidthX2">
+            Memory Bandiwidth that is calculated and finalized on the driver side, grab and go.
+        </member>
+        <member name="F:LibreHardwareMonitor.Interop.AtiAdlxx.ADLMemoryInfoX4.iMemoryBitRateX2">
+            Memory Bit Rate that is calculated and finalized on the driver side, grab and go.
         </member>
         <member name="F:LibreHardwareMonitor.Interop.Kernel32.NVME_CRITICAL_WARNING.AvailableSpaceLow">
             <summary>
