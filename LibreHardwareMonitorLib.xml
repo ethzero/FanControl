@@ -830,7 +830,7 @@
             different for each motherboard model.
             </remarks>
         </member>
-        <member name="T:LibreHardwareMonitor.Hardware.Motherboard.Lpc.GigabyteController">
+        <member name="T:LibreHardwareMonitor.Hardware.Motherboard.Lpc.IsaBridgeGigabyteController">
             <summary>
             This is a controller present on some Gigabyte motherboards for both Intel and AMD, that is in custom firmware
             loaded onto the 2nd ITE EC.
@@ -838,19 +838,19 @@
             This class can disable it so that the regular IT87XX code can drive the fans.
             </summary>
         </member>
-        <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.GigabyteController._controllerBaseAddress">
+        <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.IsaBridgeGigabyteController._controllerBaseAddress">
             <summary>
             Base address in PCI RAM that maps to the EC's RAM
             </summary>
         </member>
-        <member name="M:LibreHardwareMonitor.Hardware.Motherboard.Lpc.GigabyteController.Enable(System.Boolean)">
+        <member name="M:LibreHardwareMonitor.Hardware.Motherboard.Lpc.IsaBridgeGigabyteController.Enable(System.Boolean)">
             <summary>
             Enable/Disable Fan Control
             </summary>
             <param name="enabled"></param>
             <returns>true on success</returns>
         </member>
-        <member name="M:LibreHardwareMonitor.Hardware.Motherboard.Lpc.GigabyteController.Restore">
+        <member name="M:LibreHardwareMonitor.Hardware.Motherboard.Lpc.IsaBridgeGigabyteController.Restore">
             <summary>
             Restore settings back to initial values
             </summary>
