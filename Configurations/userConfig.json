@@ -1,5 +1,5 @@
 {
-  "__VERSION__": "194",
+  "__VERSION__": "195",
   "Main": {
     "Controls": [
       {
@@ -1071,6 +1071,9 @@
     "TrayIcons": []
   },
   "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": false
+    },
     "DisabledPlugins": [],
     "DisableStorageSensors": true,
     "LibreHardwareMonitorSettings": {
