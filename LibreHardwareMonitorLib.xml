@@ -787,6 +787,9 @@
         <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.EC.EmbeddedController.ECSensor.TempTSensor">
             <summary>"T_Sensor" temperature sensor reading [℃]</summary>
         </member>
+        <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.EC.EmbeddedController.ECSensor.TempTSensor2">
+            <summary>"T_Sensor 2" temperature sensor reading [℃]</summary>
+        </member>
         <member name="F:LibreHardwareMonitor.Hardware.Motherboard.Lpc.EC.EmbeddedController.ECSensor.TempVrm">
             <summary>VRM temperature [℃]</summary>
         </member>
