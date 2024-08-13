@@ -108,8 +108,15 @@
             Support for the NZXT GRID+ V3 devices.
             </summary>
         </member>
+        <member name="T:LibreHardwareMonitor.Hardware.Controller.Nzxt.KrakenV2">
+            <summary>
+            Support for the Kraken X (X42, X52, X62 or X72) devices.
+            </summary>
+        </member>
         <member name="T:LibreHardwareMonitor.Hardware.Controller.Nzxt.KrakenV3">
-            Support for the KrakenZ devices from NZXT
+            <summary>
+            Support for the KrakenZ devices.
+            </summary>
         </member>
         <member name="M:LibreHardwareMonitor.Hardware.Cpu.CpuId.#ctor(System.Int32,System.Int32,LibreHardwareMonitor.Hardware.GroupAffinity)">
             <summary>
