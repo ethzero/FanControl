@@ -360,7 +360,12 @@
                   "MinFanSpeed": 20.0,
                   "Name": "PCH - Auto",
                   "SelectedResponseTime": 2,
-                  "SelectedTempSource": null,
+                  "SelectedTempSource": {
+                    "Identifier": "/lpc/nct6687d/temperature/3",
+                    "IsHidden": false,
+                    "Name": "PCH",
+                    "NickName": "PCH"
+                  },
                   "Step": 2.0
                 }
               ],
@@ -474,7 +479,12 @@
                   "MinFanSpeed": 20.0,
                   "Name": "PCH - Auto",
                   "SelectedResponseTime": 2,
-                  "SelectedTempSource": null,
+                  "SelectedTempSource": {
+                    "Identifier": "/lpc/nct6687d/temperature/3",
+                    "IsHidden": false,
+                    "Name": "PCH",
+                    "NickName": "PCH"
+                  },
                   "Step": 2.0
                 }
               ],
@@ -588,7 +598,12 @@
                   "MinFanSpeed": 20.0,
                   "Name": "PCH - Auto",
                   "SelectedResponseTime": 2,
-                  "SelectedTempSource": null,
+                  "SelectedTempSource": {
+                    "Identifier": "/lpc/nct6687d/temperature/3",
+                    "IsHidden": false,
+                    "Name": "PCH",
+                    "NickName": "PCH"
+                  },
                   "Step": 2.0
                 }
               ],
@@ -725,7 +740,12 @@
                 "MinFanSpeed": 20.0,
                 "Name": "PCH - Auto",
                 "SelectedResponseTime": 2,
-                "SelectedTempSource": null,
+                "SelectedTempSource": {
+                  "Identifier": "/lpc/nct6687d/temperature/3",
+                  "IsHidden": false,
+                  "Name": "PCH",
+                  "NickName": "PCH"
+                },
                 "Step": 2.0
               }
             ],
@@ -837,7 +857,12 @@
             "MinFanSpeed": 20.0,
             "Name": "PCH - Auto",
             "SelectedResponseTime": 2,
-            "SelectedTempSource": null,
+            "SelectedTempSource": {
+              "Identifier": "/lpc/nct6687d/temperature/3",
+              "IsHidden": false,
+              "Name": "PCH",
+              "NickName": "PCH"
+            },
             "Step": 2.0
           }
         ],
@@ -889,7 +914,12 @@
         "MinFanSpeed": 20.0,
         "Name": "PCH - Auto",
         "SelectedResponseTime": 2,
-        "SelectedTempSource": null,
+        "SelectedTempSource": {
+          "Identifier": "/lpc/nct6687d/temperature/3",
+          "IsHidden": false,
+          "Name": "PCH",
+          "NickName": "PCH"
+        },
         "Step": 2.0
       },
       {
