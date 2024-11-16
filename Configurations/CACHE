@@ -7,13 +7,13 @@
   "Main": {
     "DisableDonationPopup": true,
     "FirstLaunch": false,
-    "Height": 1200.0,
-    "Left": 28.571428571428569,
+    "Height": 1017.7142857142857,
+    "Left": 0.0,
     "LeftDrawerOpen": true,
     "PopupShownDateTime": "2023-10-08T17:06:56.9770719+01:00",
     "StartMinimized": true,
-    "Top": 1036.0,
-    "Width": 2208.0,
+    "Top": 885.14285714285711,
+    "Width": 598.85714285714278,
     "WindowState": 2
   },
   "CultureSymbol": "en-GB"
