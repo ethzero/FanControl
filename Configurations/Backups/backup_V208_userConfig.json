@@ -1,5 +1,5 @@
 {
-  "__VERSION__": "210",
+  "__VERSION__": "208",
   "Main": {
     "Controls": [
       {
@@ -289,7 +289,7 @@
               "Name": "CPU Core Average - Auto",
               "SelectedResponseTime": 2,
               "SelectedTempSource": {
-                "Identifier": "/intelcpu/0/temperature/1",
+                "Identifier": "/intelcpu/0/temperature/34",
                 "IsHidden": false,
                 "Name": "Core Average",
                 "NickName": "Core Average"
@@ -405,7 +405,7 @@
                   "Name": "CPU Core Average - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
-                    "Identifier": "/intelcpu/0/temperature/1",
+                    "Identifier": "/intelcpu/0/temperature/34",
                     "IsHidden": false,
                     "Name": "Core Average",
                     "NickName": "Core Average"
@@ -524,7 +524,7 @@
                   "Name": "CPU Core Average - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
-                    "Identifier": "/intelcpu/0/temperature/1",
+                    "Identifier": "/intelcpu/0/temperature/34",
                     "IsHidden": false,
                     "Name": "Core Average",
                     "NickName": "Core Average"
@@ -643,7 +643,7 @@
                   "Name": "CPU Core Average - Auto",
                   "SelectedResponseTime": 2,
                   "SelectedTempSource": {
-                    "Identifier": "/intelcpu/0/temperature/1",
+                    "Identifier": "/intelcpu/0/temperature/34",
                     "IsHidden": false,
                     "Name": "Core Average",
                     "NickName": "Core Average"
@@ -785,7 +785,7 @@
                 "Name": "CPU Core Average - Auto",
                 "SelectedResponseTime": 2,
                 "SelectedTempSource": {
-                  "Identifier": "/intelcpu/0/temperature/1",
+                  "Identifier": "/intelcpu/0/temperature/34",
                   "IsHidden": false,
                   "Name": "Core Average",
                   "NickName": "Core Average"
@@ -832,7 +832,7 @@
             "Name": "CPU Core Average - Auto",
             "SelectedResponseTime": 2,
             "SelectedTempSource": {
-              "Identifier": "/intelcpu/0/temperature/1",
+              "Identifier": "/intelcpu/0/temperature/34",
               "IsHidden": false,
               "Name": "Core Average",
               "NickName": "Core Average"
@@ -933,7 +933,7 @@
         "Name": "CPU Core Average - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
-          "Identifier": "/intelcpu/0/temperature/1",
+          "Identifier": "/intelcpu/0/temperature/34",
           "IsHidden": false,
           "Name": "Core Average",
           "NickName": "Core Average"
@@ -951,7 +951,7 @@
         "Name": "CPU Core Max - Auto",
         "SelectedResponseTime": 2,
         "SelectedTempSource": {
-          "Identifier": "/intelcpu/0/temperature/0",
+          "Identifier": "/intelcpu/0/temperature/33",
           "IsHidden": false,
           "Name": "Core Max",
           "NickName": "Core Max"
