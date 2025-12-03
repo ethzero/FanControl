@@ -1,20 +1,21 @@
 {
   "CurrentConfigFileName": "userConfig.json",
   "Updater": {
-    "CheckForUpdateAtStartup": true,
+    "CheckForUpdateAtStartup": false,
     "DisablePopupVersionNumber": 0
   },
   "Main": {
     "DisableDonationPopup": true,
+    "DisablePawnIoPopup": false,
     "FirstLaunch": false,
-    "Height": 1550.6666666666665,
-    "Left": 609.33333333333326,
+    "Height": 1017.3333333333333,
+    "Left": 8,
     "LeftDrawerOpen": true,
-    "PopupShownDateTime": "2023-10-08T17:06:56.9770719+01:00",
+    "PopupShownDateTime": "2025-12-03T22:15:58.7626775+00:00",
     "StartMinimized": true,
-    "Top": 1398.6666666666665,
-    "Width": 898.66666666666663,
-    "WindowState": 0
+    "Top": 892,
+    "Width": 598.66666666666663,
+    "WindowState": 2
   },
-  "CultureSymbol": "en-GB"
+  "CultureSymbol": "en"
 }

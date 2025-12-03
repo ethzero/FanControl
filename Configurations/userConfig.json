@@ -1,702 +1,616 @@
 {
-  "__VERSION__": "219",
+  "__VERSION__": "249",
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": false
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": false,
+    "LibreHardwareMonitorSettings": {
+      "Controller": true,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "Memory": true,
+      "Motherboard": true,
+      "PSU": true,
+      "Storage": true,
+      "ZeroRPMOverride": false
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": false
+    }
+  },
   "Main": {
     "Controls": [
       {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/0",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "CPU Fan",
-        "NickName": "CPU Fan",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/1",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "Pump Fan",
-        "NickName": "Pump Fan",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/2",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "System Fan #1",
-        "NickName": "System Fan #1",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/3",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "System Fan #2",
-        "NickName": "System Fan #2",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/4",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "System Fan #3",
-        "NickName": "System Fan #3",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/5",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "System Fan #4",
-        "NickName": "System Fan #4",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/6",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "System Fan #5",
-        "NickName": "System Fan #5",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/lpc/nct6687d/control/7",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "System Fan #6",
-        "NickName": "System Fan #6",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": true,
-        "ForceApply": false,
-        "Identifier": "NVApiWrapper/0-GA102-A/control/0",
-        "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 46,
-        "Name": "Control 1 - NVIDIA GeForce RTX 3080",
-        "NickName": "NVIDIA GeForce RTX 3080 - Outer Fans",
-        "PairedFanSensor": {
-          "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
-          "IsHidden": false,
-          "Name": "Fan 1 - NVIDIA GeForce RTX 3080",
-          "NickName": "Fan 1 - NVIDIA GeForce RTX 3080"
-        },
-        "SelectedCommandStepDown": 0.5,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
-          "CommandMode": 0,
-          "Deadband": 3.0,
-          "IdleTemperature": 37.0,
-          "IsHidden": false,
-          "LoadTemperature": 65.0,
-          "MaxFanSpeed": 100.0,
-          "MinFanSpeed": 20.0,
-          "Name": "Graphic Card 3080 - Auto",
-          "SelectedResponseTime": 2,
-          "SelectedTempSource": {
-            "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-            "IsHidden": false,
-            "Name": "GPU",
-            "NickName": "GPU"
-          },
-          "Step": 5.0
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 40,
-        "SelectedStop": 40
-      },
-      {
-        "Calibration": null,
-        "Enable": true,
-        "ForceApply": false,
-        "Identifier": "NVApiWrapper/0-GA102-A/control/1",
-        "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 45,
-        "Name": "Control 2 - NVIDIA GeForce RTX 3080",
-        "NickName": "NVIDIA GeForce RTX 3080 - Inner Fans",
-        "PairedFanSensor": {
-          "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
-          "IsHidden": false,
-          "Name": "Fan 2 - NVIDIA GeForce RTX 3080",
-          "NickName": "Fan 2 - NVIDIA GeForce RTX 3080"
-        },
-        "SelectedCommandStepDown": 0.5,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
-          "CommandMode": 0,
-          "Deadband": 3.0,
-          "IdleTemperature": 37.0,
-          "IsHidden": false,
-          "LoadTemperature": 65.0,
-          "MaxFanSpeed": 100.0,
-          "MinFanSpeed": 20.0,
-          "Name": "Graphic Card 3080 - Auto",
-          "SelectedResponseTime": 2,
-          "SelectedTempSource": {
-            "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-            "IsHidden": false,
-            "Name": "GPU",
-            "NickName": "GPU"
-          },
-          "Step": 5.0
-        },
-        "SelectedOffset": 0,
-        "SelectedStart": 45,
-        "SelectedStop": 45
-      },
-      {
-        "Calibration": null,
-        "Enable": true,
-        "ForceApply": false,
+        "Name": "Pump - Kraken",
+        "NickName": "Pump - Kraken",
         "Identifier": "NzxtKrakenPlugin/pumpcontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
         "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 20,
-        "Name": "Pump - Kraken",
-        "NickName": "NZXT Kraken - Pump",
-        "PairedFanSensor": {
-          "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10",
-          "IsHidden": false,
-          "Name": "Pump - Kraken",
-          "NickName": "Pump - Kraken"
-        },
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "Enable": false,
         "SelectedFanCurve": {
-          "CommandMode": 0,
-          "IsHidden": false,
-          "Name": "CPU+AIO - Mix",
-          "SelectedFanCurves": [
-            {
-              "CommandMode": 0,
-              "Deadband": 3.0,
-              "IdleTemperature": 31.0,
-              "IsHidden": false,
-              "LoadTemperature": 45.0,
-              "MaxFanSpeed": 100.0,
-              "MinFanSpeed": 20.0,
-              "Name": "AIO Liquid - Auto",
-              "SelectedResponseTime": 1,
-              "SelectedTempSource": {
-                "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-                "IsHidden": false,
-                "Name": "Liquid - Kraken",
-                "NickName": "Liquid - Kraken"
-              },
-              "Step": 5.0
-            },
-            {
-              "CommandMode": 0,
-              "Deadband": 3.0,
-              "IdleTemperature": 40.0,
-              "IsHidden": false,
-              "LoadTemperature": 75.0,
-              "MaxFanSpeed": 100.0,
-              "MinFanSpeed": 20.0,
-              "Name": "CPU Core Average - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "/intelcpu/0/temperature/1",
-                "IsHidden": false,
-                "Name": "Core Average",
-                "NickName": "Core Average"
-              },
-              "Step": 2.0
-            }
-          ],
-          "SelectedMixFunction": 0
+          "Name": "Max Temperature - Mix"
         },
         "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10"
+        },
         "SelectedStart": 0,
-        "SelectedStop": 0
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            1343
+          ],
+          [
+            1,
+            1343
+          ],
+          [
+            10,
+            1343
+          ],
+          [
+            20,
+            1345
+          ],
+          [
+            30,
+            1346
+          ],
+          [
+            40,
+            1674
+          ],
+          [
+            50,
+            2520
+          ],
+          [
+            60,
+            2520
+          ],
+          [
+            70,
+            2522
+          ],
+          [
+            80,
+            2522
+          ],
+          [
+            90,
+            2526
+          ],
+          [
+            100,
+            2532
+          ]
+        ]
       },
       {
-        "Calibration": null,
-        "Enable": true,
-        "ForceApply": false,
-        "Identifier": "Lian Li/Controller_0 _Channel_0",
+        "Name": "Pump Control",
+        "NickName": "Pump - Kraken (Controllable)",
+        "Identifier": "/usbhid/1E71/300E/207D1DD0074DE95B9120D6A1FAD8CA10/control/0",
         "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 20,
-        "Name": "Uni Controller #1 Ch. 1",
-        "NickName": "Lian Li Uni Controller #1 Ch. 1 - Intake Side Fans",
-        "PairedFanSensor": {
-          "Identifier": "Lian Li/Controller_0 _Channel_0",
-          "IsHidden": false,
-          "Name": "Uni Controller #1 Ch. 1",
-          "NickName": "Uni Controller #1 Ch. 1"
-        },
-        "SelectedCommandStepDown": 0.5,
-        "SelectedCommandStepUp": 8.0,
+        "Enable": true,
         "SelectedFanCurve": {
-          "CommandMode": 0,
-          "IsHidden": false,
-          "Name": "Max Temperature - Mix",
-          "SelectedFanCurves": [
-            {
-              "CommandMode": 0,
-              "Deadband": 3.0,
-              "IdleTemperature": 37.0,
-              "IsHidden": false,
-              "LoadTemperature": 65.0,
-              "MaxFanSpeed": 100.0,
-              "MinFanSpeed": 20.0,
-              "Name": "Graphic Card 3080 - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-                "IsHidden": false,
-                "Name": "GPU",
-                "NickName": "GPU"
-              },
-              "Step": 5.0
-            },
-            {
-              "CommandMode": 0,
-              "IsHidden": false,
-              "Name": "Motherboard Components - Max",
-              "SelectedFanCurves": [
-                {
-                  "CommandMode": 0,
-                  "Deadband": 3.0,
-                  "IdleTemperature": 70.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 75.0,
-                  "MaxFanSpeed": 100.0,
-                  "MinFanSpeed": 20.0,
-                  "Name": "PCH - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "/lpc/nct6687d/temperature/3",
-                    "IsHidden": false,
-                    "Name": "PCH",
-                    "NickName": "PCH"
-                  },
-                  "Step": 2.0
-                }
-              ],
-              "SelectedMixFunction": 0
-            },
-            {
-              "CommandMode": 0,
-              "IsHidden": false,
-              "Name": "CPU+AIO - Mix",
-              "SelectedFanCurves": [
-                {
-                  "CommandMode": 0,
-                  "Deadband": 3.0,
-                  "IdleTemperature": 31.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 45.0,
-                  "MaxFanSpeed": 100.0,
-                  "MinFanSpeed": 20.0,
-                  "Name": "AIO Liquid - Auto",
-                  "SelectedResponseTime": 1,
-                  "SelectedTempSource": {
-                    "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-                    "IsHidden": false,
-                    "Name": "Liquid - Kraken",
-                    "NickName": "Liquid - Kraken"
-                  },
-                  "Step": 5.0
-                },
-                {
-                  "CommandMode": 0,
-                  "Deadband": 3.0,
-                  "IdleTemperature": 40.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 75.0,
-                  "MaxFanSpeed": 100.0,
-                  "MinFanSpeed": 20.0,
-                  "Name": "CPU Core Average - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "/intelcpu/0/temperature/1",
-                    "IsHidden": false,
-                    "Name": "Core Average",
-                    "NickName": "Core Average"
-                  },
-                  "Step": 2.0
-                }
-              ],
-              "SelectedMixFunction": 0
-            }
-          ],
-          "SelectedMixFunction": 0
+          "Name": "Max Temperature - Mix"
         },
         "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": true,
-        "ForceApply": false,
-        "Identifier": "Lian Li/Controller_0 _Channel_1",
-        "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 20,
-        "Name": "Uni Controller #1 Ch. 2",
-        "NickName": "Lian Li Uni Controller #1 Ch. 2 - Intake Bottom Fans",
         "PairedFanSensor": {
-          "Identifier": "Lian Li/Controller_0 _Channel_1",
-          "IsHidden": false,
-          "Name": "Uni Controller #1 Ch. 2",
-          "NickName": "Uni Controller #1 Ch. 2"
+          "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10"
         },
-        "SelectedCommandStepDown": 0.5,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": {
-          "CommandMode": 0,
-          "IsHidden": false,
-          "Name": "Max Temperature - Mix",
-          "SelectedFanCurves": [
-            {
-              "CommandMode": 0,
-              "Deadband": 3.0,
-              "IdleTemperature": 37.0,
-              "IsHidden": false,
-              "LoadTemperature": 65.0,
-              "MaxFanSpeed": 100.0,
-              "MinFanSpeed": 20.0,
-              "Name": "Graphic Card 3080 - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-                "IsHidden": false,
-                "Name": "GPU",
-                "NickName": "GPU"
-              },
-              "Step": 5.0
-            },
-            {
-              "CommandMode": 0,
-              "IsHidden": false,
-              "Name": "Motherboard Components - Max",
-              "SelectedFanCurves": [
-                {
-                  "CommandMode": 0,
-                  "Deadband": 3.0,
-                  "IdleTemperature": 70.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 75.0,
-                  "MaxFanSpeed": 100.0,
-                  "MinFanSpeed": 20.0,
-                  "Name": "PCH - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "/lpc/nct6687d/temperature/3",
-                    "IsHidden": false,
-                    "Name": "PCH",
-                    "NickName": "PCH"
-                  },
-                  "Step": 2.0
-                }
-              ],
-              "SelectedMixFunction": 0
-            },
-            {
-              "CommandMode": 0,
-              "IsHidden": false,
-              "Name": "CPU+AIO - Mix",
-              "SelectedFanCurves": [
-                {
-                  "CommandMode": 0,
-                  "Deadband": 3.0,
-                  "IdleTemperature": 31.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 45.0,
-                  "MaxFanSpeed": 100.0,
-                  "MinFanSpeed": 20.0,
-                  "Name": "AIO Liquid - Auto",
-                  "SelectedResponseTime": 1,
-                  "SelectedTempSource": {
-                    "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-                    "IsHidden": false,
-                    "Name": "Liquid - Kraken",
-                    "NickName": "Liquid - Kraken"
-                  },
-                  "Step": 5.0
-                },
-                {
-                  "CommandMode": 0,
-                  "Deadband": 3.0,
-                  "IdleTemperature": 40.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 75.0,
-                  "MaxFanSpeed": 100.0,
-                  "MinFanSpeed": 20.0,
-                  "Name": "CPU Core Average - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "/intelcpu/0/temperature/1",
-                    "IsHidden": false,
-                    "Name": "Core Average",
-                    "NickName": "Core Average"
-                  },
-                  "Step": 2.0
-                }
-              ],
-              "SelectedMixFunction": 0
-            }
-          ],
-          "SelectedMixFunction": 0
-        },
-        "SelectedOffset": 0,
         "SelectedStart": 0,
-        "SelectedStop": 0
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            30,
+            1345
+          ],
+          [
+            40,
+            1677
+          ],
+          [
+            50,
+            1958
+          ],
+          [
+            60,
+            2227
+          ],
+          [
+            70,
+            2452
+          ],
+          [
+            80,
+            2663
+          ],
+          [
+            90,
+            2865
+          ],
+          [
+            100,
+            3054
+          ]
+        ]
       },
       {
-        "Calibration": null,
-        "Enable": true,
-        "ForceApply": false,
+        "Name": "Fan - Kraken",
+        "NickName": "Fan - Kraken (TO BE REMOVED)",
         "Identifier": "NzxtKrakenPlugin/fancontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
         "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 20,
-        "Name": "Fan - Kraken",
-        "NickName": "NZXT Kraken - Exhaust Top Fans",
-        "PairedFanSensor": {
-          "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
-          "IsHidden": false,
-          "Name": "Fan - Kraken",
-          "NickName": "Fan - Kraken"
-        },
-        "SelectedCommandStepDown": 0.5,
-        "SelectedCommandStepUp": 8.0,
+        "Enable": false,
         "SelectedFanCurve": {
-          "CommandMode": 0,
-          "IsHidden": false,
-          "Name": "Max Temperature - Mix",
-          "SelectedFanCurves": [
-            {
-              "CommandMode": 0,
-              "Deadband": 3.0,
-              "IdleTemperature": 37.0,
-              "IsHidden": false,
-              "LoadTemperature": 65.0,
-              "MaxFanSpeed": 100.0,
-              "MinFanSpeed": 20.0,
-              "Name": "Graphic Card 3080 - Auto",
-              "SelectedResponseTime": 2,
-              "SelectedTempSource": {
-                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-                "IsHidden": false,
-                "Name": "GPU",
-                "NickName": "GPU"
-              },
-              "Step": 5.0
-            },
-            {
-              "CommandMode": 0,
-              "IsHidden": false,
-              "Name": "Motherboard Components - Max",
-              "SelectedFanCurves": [
-                {
-                  "CommandMode": 0,
-                  "Deadband": 3.0,
-                  "IdleTemperature": 70.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 75.0,
-                  "MaxFanSpeed": 100.0,
-                  "MinFanSpeed": 20.0,
-                  "Name": "PCH - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "/lpc/nct6687d/temperature/3",
-                    "IsHidden": false,
-                    "Name": "PCH",
-                    "NickName": "PCH"
-                  },
-                  "Step": 2.0
-                }
-              ],
-              "SelectedMixFunction": 0
-            },
-            {
-              "CommandMode": 0,
-              "IsHidden": false,
-              "Name": "CPU+AIO - Mix",
-              "SelectedFanCurves": [
-                {
-                  "CommandMode": 0,
-                  "Deadband": 3.0,
-                  "IdleTemperature": 31.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 45.0,
-                  "MaxFanSpeed": 100.0,
-                  "MinFanSpeed": 20.0,
-                  "Name": "AIO Liquid - Auto",
-                  "SelectedResponseTime": 1,
-                  "SelectedTempSource": {
-                    "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-                    "IsHidden": false,
-                    "Name": "Liquid - Kraken",
-                    "NickName": "Liquid - Kraken"
-                  },
-                  "Step": 5.0
-                },
-                {
-                  "CommandMode": 0,
-                  "Deadband": 3.0,
-                  "IdleTemperature": 40.0,
-                  "IsHidden": false,
-                  "LoadTemperature": 75.0,
-                  "MaxFanSpeed": 100.0,
-                  "MinFanSpeed": 20.0,
-                  "Name": "CPU Core Average - Auto",
-                  "SelectedResponseTime": 2,
-                  "SelectedTempSource": {
-                    "Identifier": "/intelcpu/0/temperature/1",
-                    "IsHidden": false,
-                    "Name": "Core Average",
-                    "NickName": "Core Average"
-                  },
-                  "Step": 2.0
-                }
-              ],
-              "SelectedMixFunction": 0
-            }
-          ],
-          "SelectedMixFunction": 0
+          "Name": "Max Temperature - Mix"
         },
         "SelectedOffset": 0,
-        "SelectedStart": 6,
-        "SelectedStop": 0
+        "PairedFanSensor": {
+          "Identifier": "/usbhid/1E71/300E/207D1DD0074DE95B9120D6A1FAD8CA10/fan/1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 100,
+        "ManualControl": false,
+        "ForceApply": true,
+        "Calibration": [
+          [
+            90,
+            0
+          ],
+          [
+            100,
+            0
+          ]
+        ]
       },
       {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "Lian Li/Controller_0 _Channel_2",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
+        "Name": "Fans Control",
+        "NickName": "Fan - Kraken (Controllable)",
+        "Identifier": "/usbhid/1E71/300E/207D1DD0074DE95B9120D6A1FAD8CA10/control/1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Max Temperature - Mix"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
         "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 0,
+        "ManualControl": false,
+        "ForceApply": true,
+        "Calibration": [
+          [
+            77,
+            1354
+          ],
+          [
+            100,
+            1750
+          ]
+        ]
+      },
+      {
+        "Name": "Control 1 - NVIDIA GeForce RTX 3080",
+        "NickName": "NVIDIA GeForce RTX 3080 - Outer Fans",
+        "Identifier": "NVApiWrapper/0-GA102-A/control/0",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graphic Card 3080 - Auto"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GA102-A/fan/0"
+        },
+        "SelectedStart": 45,
+        "SelectedStop": 36,
+        "MinimumPercent": 46,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 0.5,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            30,
+            0
+          ],
+          [
+            40,
+            508
+          ],
+          [
+            50,
+            838
+          ],
+          [
+            60,
+            1278
+          ],
+          [
+            70,
+            1708
+          ],
+          [
+            80,
+            2148
+          ],
+          [
+            90,
+            2583
+          ],
+          [
+            100,
+            2988
+          ]
+        ]
+      },
+      {
+        "Name": "Control 2 - NVIDIA GeForce RTX 3080",
+        "NickName": "NVIDIA GeForce RTX 3080 - Inner Fans",
+        "Identifier": "NVApiWrapper/0-GA102-A/control/1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graphic Card 3080 - Auto"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GA102-A/fan/1"
+        },
+        "SelectedStart": 49,
+        "SelectedStop": 46,
+        "MinimumPercent": 45,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 0.5,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            40,
+            0
+          ],
+          [
+            50,
+            842
+          ],
+          [
+            60,
+            1315
+          ],
+          [
+            70,
+            1707
+          ],
+          [
+            80,
+            2154
+          ],
+          [
+            90,
+            2571
+          ],
+          [
+            100,
+            2988
+          ]
+        ]
+      },
+      {
+        "Name": "Uni Controller #1 Ch. 1",
+        "NickName": "Lian Li Uni Controller #1 Ch. 1 - Intake Side Fans",
+        "Identifier": "Lian Li/Controller_0 _Channel_0",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Max Temperature - Mix"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "Lian Li/Controller_0 _Channel_0"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 20,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 0.5,
+        "ManualControlValue": 0,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            990
+          ],
+          [
+            1,
+            998
+          ],
+          [
+            30,
+            998
+          ],
+          [
+            70,
+            1020
+          ],
+          [
+            80,
+            1035
+          ],
+          [
+            90,
+            1050
+          ],
+          [
+            100,
+            1095
+          ]
+        ]
+      },
+      {
+        "Name": "Uni Controller #1 Ch. 2",
+        "NickName": "Lian Li Uni Controller #1 Ch. 2 - Intake Bottom Fans",
+        "Identifier": "Lian Li/Controller_0 _Channel_1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Max Temperature - Mix"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "Lian Li/Controller_0 _Channel_1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 20,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 0.5,
+        "ManualControlValue": 0,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            10,
+            1001
+          ],
+          [
+            20,
+            1001
+          ],
+          [
+            50,
+            1009
+          ],
+          [
+            70,
+            1020
+          ],
+          [
+            100,
+            1020
+          ]
+        ]
+      },
+      {
         "Name": "Uni Controller #1 Ch. 3",
         "NickName": "Uni Controller #1 Ch. 3",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "Identifier": "Lian Li/Controller_0 _Channel_2",
+        "IsHidden": true,
+        "Enable": false,
         "SelectedFanCurve": null,
         "SelectedOffset": 0,
+        "PairedFanSensor": null,
         "SelectedStart": 0,
-        "SelectedStop": 0
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
       },
       {
-        "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "Lian Li/Controller_0 _Channel_3",
-        "IsHidden": true,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
         "Name": "Uni Controller #1 Ch. 4",
         "NickName": "Uni Controller #1 Ch. 4",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
+        "Identifier": "Lian Li/Controller_0 _Channel_3",
+        "IsHidden": true,
+        "Enable": false,
         "SelectedFanCurve": null,
         "SelectedOffset": 0,
+        "PairedFanSensor": null,
         "SelectedStart": 0,
-        "SelectedStop": 0
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "Name": "CPU Fan",
+        "NickName": "CPU Fan",
+        "Identifier": "/lpc/nct6687d/control/0",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "Name": "Pump Fan",
+        "NickName": "Pump Fan",
+        "Identifier": "/lpc/nct6687d/control/1",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "Name": "System Fan #1",
+        "NickName": "System Fan #1",
+        "Identifier": "/lpc/nct6687d/control/2",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "Name": "System Fan #2",
+        "NickName": "System Fan #2",
+        "Identifier": "/lpc/nct6687d/control/3",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "Name": "System Fan #3",
+        "NickName": "System Fan #3",
+        "Identifier": "/lpc/nct6687d/control/4",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/usbhid/1E71/300E/207D1DD0074DE95B9120D6A1FAD8CA10/fan/1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "Name": "System Fan #4",
+        "NickName": "System Fan #4",
+        "Identifier": "/lpc/nct6687d/control/5",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "Name": "System Fan #5",
+        "NickName": "System Fan #5",
+        "Identifier": "/lpc/nct6687d/control/6",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "Name": "System Fan #6",
+        "NickName": "System Fan #6",
+        "Identifier": "/lpc/nct6687d/control/7",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
       }
     ],
     "CustomSensors": [],
@@ -704,285 +618,217 @@
     "FanCurves": [
       {
         "CommandMode": 0,
-        "IsHidden": false,
         "Name": "Max Temperature - Mix",
+        "IsHidden": false,
         "SelectedFanCurves": [
           {
-            "CommandMode": 0,
-            "Deadband": 3.0,
-            "IdleTemperature": 37.0,
-            "IsHidden": false,
-            "LoadTemperature": 65.0,
-            "MaxFanSpeed": 100.0,
-            "MinFanSpeed": 20.0,
-            "Name": "Graphic Card 3080 - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-              "IsHidden": false,
-              "Name": "GPU",
-              "NickName": "GPU"
-            },
-            "Step": 5.0
+            "Name": "Motherboard Components - Max"
           },
           {
-            "CommandMode": 0,
-            "IsHidden": false,
-            "Name": "Motherboard Components - Max",
-            "SelectedFanCurves": [
-              {
-                "CommandMode": 0,
-                "Deadband": 3.0,
-                "IdleTemperature": 70.0,
-                "IsHidden": false,
-                "LoadTemperature": 75.0,
-                "MaxFanSpeed": 100.0,
-                "MinFanSpeed": 20.0,
-                "Name": "PCH - Auto",
-                "SelectedResponseTime": 2,
-                "SelectedTempSource": {
-                  "Identifier": "/lpc/nct6687d/temperature/3",
-                  "IsHidden": false,
-                  "Name": "PCH",
-                  "NickName": "PCH"
-                },
-                "Step": 2.0
-              }
-            ],
-            "SelectedMixFunction": 0
+            "Name": "CPU+AIO - Mix"
           },
           {
-            "CommandMode": 0,
-            "IsHidden": false,
-            "Name": "CPU+AIO - Mix",
-            "SelectedFanCurves": [
-              {
-                "CommandMode": 0,
-                "Deadband": 3.0,
-                "IdleTemperature": 31.0,
-                "IsHidden": false,
-                "LoadTemperature": 45.0,
-                "MaxFanSpeed": 100.0,
-                "MinFanSpeed": 20.0,
-                "Name": "AIO Liquid - Auto",
-                "SelectedResponseTime": 1,
-                "SelectedTempSource": {
-                  "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-                  "IsHidden": false,
-                  "Name": "Liquid - Kraken",
-                  "NickName": "Liquid - Kraken"
-                },
-                "Step": 5.0
-              },
-              {
-                "CommandMode": 0,
-                "Deadband": 3.0,
-                "IdleTemperature": 40.0,
-                "IsHidden": false,
-                "LoadTemperature": 75.0,
-                "MaxFanSpeed": 100.0,
-                "MinFanSpeed": 20.0,
-                "Name": "CPU Core Average - Auto",
-                "SelectedResponseTime": 2,
-                "SelectedTempSource": {
-                  "Identifier": "/intelcpu/0/temperature/1",
-                  "IsHidden": false,
-                  "Name": "Core Average",
-                  "NickName": "Core Average"
-                },
-                "Step": 2.0
-              }
-            ],
-            "SelectedMixFunction": 0
+            "Name": "Graphic Card 3080 - Auto"
           }
         ],
         "SelectedMixFunction": 0
       },
       {
         "CommandMode": 0,
-        "IsHidden": false,
         "Name": "CPU+AIO - Mix",
+        "IsHidden": false,
         "SelectedFanCurves": [
           {
-            "CommandMode": 0,
-            "Deadband": 3.0,
-            "IdleTemperature": 31.0,
-            "IsHidden": false,
-            "LoadTemperature": 45.0,
-            "MaxFanSpeed": 100.0,
-            "MinFanSpeed": 20.0,
-            "Name": "AIO Liquid - Auto",
-            "SelectedResponseTime": 1,
-            "SelectedTempSource": {
-              "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-              "IsHidden": false,
-              "Name": "Liquid - Kraken",
-              "NickName": "Liquid - Kraken"
-            },
-            "Step": 5.0
+            "Name": "AIO Liquid - Auto"
           },
           {
-            "CommandMode": 0,
-            "Deadband": 3.0,
-            "IdleTemperature": 40.0,
-            "IsHidden": false,
-            "LoadTemperature": 75.0,
-            "MaxFanSpeed": 100.0,
-            "MinFanSpeed": 20.0,
-            "Name": "CPU Core Average - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "/intelcpu/0/temperature/1",
-              "IsHidden": false,
-              "Name": "Core Average",
-              "NickName": "Core Average"
-            },
-            "Step": 2.0
+            "Name": "CPU Core Average - Auto"
+          },
+          {
+            "Name": "DIMM - Mix"
           }
         ],
         "SelectedMixFunction": 0
       },
       {
         "CommandMode": 0,
-        "IsHidden": false,
         "Name": "Motherboard Components - Max",
+        "IsHidden": false,
         "SelectedFanCurves": [
           {
-            "CommandMode": 0,
-            "Deadband": 3.0,
-            "IdleTemperature": 70.0,
-            "IsHidden": false,
-            "LoadTemperature": 75.0,
-            "MaxFanSpeed": 100.0,
-            "MinFanSpeed": 20.0,
-            "Name": "PCH - Auto",
-            "SelectedResponseTime": 2,
-            "SelectedTempSource": {
-              "Identifier": "/lpc/nct6687d/temperature/3",
-              "IsHidden": false,
-              "Name": "PCH",
-              "NickName": "PCH"
-            },
-            "Step": 2.0
+            "Name": "PCH - Auto"
           }
         ],
         "SelectedMixFunction": 0
       },
       {
         "CommandMode": 0,
-        "Deadband": 3.0,
-        "IdleTemperature": 31.0,
+        "Name": "DIMM - Mix",
         "IsHidden": false,
-        "LoadTemperature": 45.0,
-        "MaxFanSpeed": 100.0,
-        "MinFanSpeed": 20.0,
+        "SelectedFanCurves": [
+          {
+            "Name": "DIMM#C0A1 - Auto"
+          },
+          {
+            "Name": "DIMM#C0A2 - Auto"
+          },
+          {
+            "Name": "DIMM#C1B1 - Auto"
+          },
+          {
+            "Name": "DIMM#C1B2 - Auto"
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "CommandMode": 0,
         "Name": "AIO Liquid - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": {
+          "Identifier": "/usbhid/1E71/300E/207D1DD0074DE95B9120D6A1FAD8CA10/temperature/0"
+        },
+        "Step": 5,
+        "Deadband": 3,
         "SelectedResponseTime": 1,
-        "SelectedTempSource": {
-          "Identifier": "NzxtKrakenPlugin/liquidtemp-207D1DD0074DE95B9120D6A1FAD8CA10",
-          "IsHidden": false,
-          "Name": "Liquid - Kraken",
-          "NickName": "Liquid - Kraken"
-        },
-        "Step": 5.0
+        "IdleTemperature": 31,
+        "MinFanSpeed": 20,
+        "MaxFanSpeed": 100,
+        "LoadTemperature": 45
       },
       {
         "CommandMode": 0,
-        "Deadband": 3.0,
-        "IdleTemperature": 37.0,
-        "IsHidden": false,
-        "LoadTemperature": 65.0,
-        "MaxFanSpeed": 100.0,
-        "MinFanSpeed": 20.0,
         "Name": "Graphic Card 3080 - Auto",
-        "SelectedResponseTime": 2,
+        "IsHidden": false,
         "SelectedTempSource": {
-          "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
-          "IsHidden": false,
-          "Name": "GPU",
-          "NickName": "GPU"
+          "Identifier": "NVApiWrapper/0-GA102-A/sensor/0"
         },
-        "Step": 5.0
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "MinFanSpeed": 30,
+        "MaxFanSpeed": 100,
+        "IdleTemperature": 37,
+        "LoadTemperature": 65
       },
       {
         "CommandMode": 0,
-        "Deadband": 3.0,
-        "IdleTemperature": 70.0,
-        "IsHidden": false,
-        "LoadTemperature": 75.0,
-        "MaxFanSpeed": 100.0,
-        "MinFanSpeed": 20.0,
         "Name": "PCH - Auto",
-        "SelectedResponseTime": 2,
+        "IsHidden": false,
         "SelectedTempSource": {
-          "Identifier": "/lpc/nct6687d/temperature/3",
-          "IsHidden": false,
-          "Name": "PCH",
-          "NickName": "PCH"
+          "Identifier": "/lpc/nct6687d/temperature/3"
         },
-        "Step": 2.0
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "MinFanSpeed": 20,
+        "MaxFanSpeed": 100,
+        "IdleTemperature": 70,
+        "LoadTemperature": 75
       },
       {
         "CommandMode": 0,
-        "Deadband": 3.0,
-        "IdleTemperature": 40.0,
-        "IsHidden": false,
-        "LoadTemperature": 75.0,
-        "MaxFanSpeed": 100.0,
-        "MinFanSpeed": 20.0,
         "Name": "CPU Core Average - Auto",
-        "SelectedResponseTime": 2,
+        "IsHidden": false,
         "SelectedTempSource": {
-          "Identifier": "/intelcpu/0/temperature/1",
-          "IsHidden": false,
-          "Name": "Core Average",
-          "NickName": "Core Average"
+          "Identifier": "/intelcpu/0/temperature/1"
         },
-        "Step": 2.0
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "MinFanSpeed": 20,
+        "MaxFanSpeed": 100,
+        "IdleTemperature": 40,
+        "LoadTemperature": 75
       },
       {
         "CommandMode": 0,
-        "Deadband": 3.0,
-        "IdleTemperature": 45.0,
-        "IsHidden": false,
-        "LoadTemperature": 75.0,
-        "MaxFanSpeed": 100.0,
-        "MinFanSpeed": 20.0,
         "Name": "CPU Core Max - Auto",
-        "SelectedResponseTime": 2,
+        "IsHidden": false,
         "SelectedTempSource": {
-          "Identifier": "/intelcpu/0/temperature/0",
-          "IsHidden": false,
-          "Name": "Core Max",
-          "NickName": "Core Max"
+          "Identifier": "/intelcpu/0/temperature/0"
         },
-        "Step": 2.0
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "MinFanSpeed": 20,
+        "MaxFanSpeed": 100,
+        "IdleTemperature": 45,
+        "LoadTemperature": 75
+      },
+      {
+        "CommandMode": 0,
+        "Name": "DIMM#C0A1 - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": {
+          "Identifier": "/memory/dimm/0/temperature/0"
+        },
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "MinFanSpeed": 50,
+        "MaxFanSpeed": 80,
+        "IdleTemperature": 35,
+        "LoadTemperature": 70
+      },
+      {
+        "CommandMode": 0,
+        "Name": "DIMM#C0A2 - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": {
+          "Identifier": "/memory/dimm/1/temperature/1"
+        },
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "MinFanSpeed": 50,
+        "MaxFanSpeed": 80,
+        "IdleTemperature": 35,
+        "LoadTemperature": 70
+      },
+      {
+        "CommandMode": 0,
+        "Name": "DIMM#C1B1 - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": {
+          "Identifier": "/memory/dimm/2/temperature/2"
+        },
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "MinFanSpeed": 50,
+        "MaxFanSpeed": 80,
+        "IdleTemperature": 35,
+        "LoadTemperature": 70
+      },
+      {
+        "CommandMode": 0,
+        "Name": "DIMM#C1B2 - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": {
+          "Identifier": "/memory/dimm/3/temperature/3"
+        },
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "MinFanSpeed": 50,
+        "MaxFanSpeed": 80,
+        "IdleTemperature": 35,
+        "LoadTemperature": 70
       }
     ],
     "FanSensors": [
       {
-        "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10",
-        "IsHidden": false,
-        "Name": "Pump - Kraken",
-        "NickName": "Pump - Kraken"
-      },
-      {
-        "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
-        "IsHidden": false,
-        "Name": "Fan - Kraken",
-        "NickName": "Fan - Kraken"
-      },
-      {
         "Identifier": "Lian Li/Controller_0 _Channel_0",
         "IsHidden": false,
         "Name": "Uni Controller #1 Ch. 1",
-        "NickName": "Uni Controller #1 Ch. 1"
+        "NickName": "Lian Li Uni Controller #1 Ch. 1 - Intake Side Fans"
       },
       {
         "Identifier": "Lian Li/Controller_0 _Channel_1",
         "IsHidden": false,
         "Name": "Uni Controller #1 Ch. 2",
-        "NickName": "Uni Controller #1 Ch. 2"
+        "NickName": "Lian Li Uni Controller #1 Ch. 2 - Intake Bottom Fans"
       },
       {
         "Identifier": "Lian Li/Controller_0 _Channel_2",
@@ -1000,13 +846,37 @@
         "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
         "IsHidden": false,
         "Name": "Fan 1 - NVIDIA GeForce RTX 3080",
-        "NickName": "Fan 1 - NVIDIA GeForce RTX 3080"
+        "NickName": "NVIDIA GeForce RTX 3080 - Outer Fans"
       },
       {
         "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
         "IsHidden": false,
         "Name": "Fan 2 - NVIDIA GeForce RTX 3080",
-        "NickName": "Fan 2 - NVIDIA GeForce RTX 3080"
+        "NickName": "NVIDIA GeForce RTX 3080 - Inner Fans"
+      },
+      {
+        "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "Name": "Pump - Kraken",
+        "NickName": "Pump - Kraken"
+      },
+      {
+        "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "Name": "Fan - Kraken",
+        "NickName": "Fan - Kraken"
+      },
+      {
+        "Identifier": "/usbhid/1E71/300E/207D1DD0074DE95B9120D6A1FAD8CA10/fan/0",
+        "IsHidden": false,
+        "Name": "Pump",
+        "NickName": "Pump"
+      },
+      {
+        "Identifier": "/usbhid/1E71/300E/207D1DD0074DE95B9120D6A1FAD8CA10/fan/1",
+        "IsHidden": false,
+        "Name": "Fans",
+        "NickName": "Fans"
       },
       {
         "Identifier": "/lpc/nct6687d/fan/0",
@@ -1069,29 +939,5 @@
     "TemperatureSensors": [],
     "TrayIconColor": "#FF000000",
     "TrayIcons": []
-  },
-  "Sensors": {
-    "AdlxWrapperSettings": {
-      "Enabled": false
-    },
-    "DisabledPlugins": [],
-    "DisableStorageSensors": true,
-    "LibreHardwareMonitorSettings": {
-      "Controller": false,
-      "CPU": true,
-      "EmbeddedEC": true,
-      "GPU": true,
-      "InpOut": false,
-      "Memory": false,
-      "Motherboard": true,
-      "PSU": false,
-      "Storage": false,
-      "ZeroRPMOverride": false
-    },
-    "NvAPIWrapperSettings": {
-      "Enabled": true,
-      "ZeroRPMOverride": false
-    },
-    "SensorCount": 76
   }
 }

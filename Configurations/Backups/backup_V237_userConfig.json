@@ -1,0 +1,495 @@
+{
+  "__VERSION__": "237",
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": false
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": true,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "InpOut": false,
+      "Memory": false,
+      "Motherboard": true,
+      "PSU": false,
+      "Storage": false,
+      "ZeroRPMOverride": false
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": false
+    }
+  },
+  "Main": {
+    "Controls": [
+      {
+        "Name": "Pump - Kraken",
+        "NickName": "Pump - Kraken",
+        "Identifier": "NzxtKrakenPlugin/pumpcontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Max Temperature - Mix"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            80,
+            0
+          ],
+          [
+            90,
+            1761
+          ],
+          [
+            100,
+            1854
+          ]
+        ]
+      },
+      {
+        "Name": "Fan - Kraken",
+        "NickName": "Fan - Kraken",
+        "Identifier": "NzxtKrakenPlugin/fancontrol-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Max Temperature - Mix"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            90,
+            0
+          ],
+          [
+            100,
+            927
+          ]
+        ]
+      },
+      {
+        "Name": "Control 1 - NVIDIA GeForce RTX 3080",
+        "NickName": "NVIDIA GeForce RTX 3080 - Outer Fans",
+        "Identifier": "NVApiWrapper/0-GA102-A/control/0",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graphic Card 3080 - Auto"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GA102-A/fan/0"
+        },
+        "SelectedStart": 49,
+        "SelectedStop": 46,
+        "MinimumPercent": 46,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 0.5,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            40,
+            0
+          ],
+          [
+            50,
+            838
+          ],
+          [
+            60,
+            1276
+          ],
+          [
+            70,
+            1711
+          ],
+          [
+            80,
+            2147
+          ],
+          [
+            90,
+            2579
+          ],
+          [
+            100,
+            2986
+          ]
+        ]
+      },
+      {
+        "Name": "Control 2 - NVIDIA GeForce RTX 3080",
+        "NickName": "NVIDIA GeForce RTX 3080 - Inner Fans",
+        "Identifier": "NVApiWrapper/0-GA102-A/control/1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Graphic Card 3080 - Auto"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GA102-A/fan/1"
+        },
+        "SelectedStart": 42,
+        "SelectedStop": 36,
+        "MinimumPercent": 45,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 0.5,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            30,
+            0
+          ],
+          [
+            40,
+            523
+          ],
+          [
+            50,
+            841
+          ],
+          [
+            60,
+            1271
+          ],
+          [
+            70,
+            1716
+          ],
+          [
+            80,
+            2149
+          ],
+          [
+            90,
+            2584
+          ],
+          [
+            100,
+            2987
+          ]
+        ]
+      },
+      {
+        "Name": "Uni Controller #1 Ch. 1",
+        "NickName": "Lian Li Uni Controller #1 Ch. 1 - Intake Side Fans",
+        "Identifier": "Lian Li/Controller_0 _Channel_0",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Max Temperature - Mix"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "Lian Li/Controller_0 _Channel_0"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 20,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 0.5,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            50,
+            998
+          ],
+          [
+            80,
+            1001
+          ],
+          [
+            90,
+            1009
+          ],
+          [
+            100,
+            1065
+          ]
+        ]
+      },
+      {
+        "Name": "Uni Controller #1 Ch. 2",
+        "NickName": "Lian Li Uni Controller #1 Ch. 2 - Intake Bottom Fans",
+        "Identifier": "Lian Li/Controller_0 _Channel_1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "Max Temperature - Mix"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "Lian Li/Controller_0 _Channel_1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 20,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 0.5,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            80,
+            1001
+          ],
+          [
+            90,
+            1009
+          ],
+          [
+            100,
+            1065
+          ]
+        ]
+      },
+      {
+        "Name": "Uni Controller #1 Ch. 3",
+        "NickName": "Uni Controller #1 Ch. 3",
+        "Identifier": "Lian Li/Controller_0 _Channel_2",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "Name": "Uni Controller #1 Ch. 4",
+        "NickName": "Uni Controller #1 Ch. 4",
+        "Identifier": "Lian Li/Controller_0 _Channel_3",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      }
+    ],
+    "CustomSensors": [],
+    "Fahrenheit": false,
+    "FanCurves": [
+      {
+        "CommandMode": 0,
+        "Name": "Max Temperature - Mix",
+        "IsHidden": false,
+        "SelectedFanCurves": [
+          {
+            "Name": "Motherboard Components - Max"
+          },
+          {
+            "Name": "CPU+AIO - Mix"
+          },
+          {
+            "Name": "Graphic Card 3080 - Auto"
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "CommandMode": 0,
+        "Name": "CPU+AIO - Mix",
+        "IsHidden": false,
+        "SelectedFanCurves": [
+          {
+            "Name": "AIO Liquid - Auto"
+          },
+          {
+            "Name": "CPU Core Average - Auto"
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "CommandMode": 0,
+        "Name": "Motherboard Components - Max",
+        "IsHidden": false,
+        "SelectedFanCurves": [
+          {
+            "Name": "PCH - Auto"
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "CommandMode": 0,
+        "Name": "AIO Liquid - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": null,
+        "Step": 5,
+        "Deadband": 3,
+        "SelectedResponseTime": 1,
+        "IdleTemperature": 31,
+        "MinFanSpeed": 20,
+        "MaxFanSpeed": 100,
+        "LoadTemperature": 45
+      },
+      {
+        "CommandMode": 0,
+        "Name": "Graphic Card 3080 - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": {
+          "Identifier": "NVApiWrapper/0-GA102-A/sensor/0"
+        },
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "IdleTemperature": 37,
+        "MinFanSpeed": 30,
+        "MaxFanSpeed": 100,
+        "LoadTemperature": 65
+      },
+      {
+        "CommandMode": 0,
+        "Name": "PCH - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": null,
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "IdleTemperature": 70,
+        "MinFanSpeed": 20,
+        "MaxFanSpeed": 100,
+        "LoadTemperature": 75
+      },
+      {
+        "CommandMode": 0,
+        "Name": "CPU Core Average - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": null,
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "IdleTemperature": 40,
+        "MinFanSpeed": 20,
+        "MaxFanSpeed": 100,
+        "LoadTemperature": 75
+      },
+      {
+        "CommandMode": 0,
+        "Name": "CPU Core Max - Auto",
+        "IsHidden": false,
+        "SelectedTempSource": null,
+        "Step": 2,
+        "Deadband": 3,
+        "SelectedResponseTime": 2,
+        "IdleTemperature": 45,
+        "MinFanSpeed": 20,
+        "MaxFanSpeed": 100,
+        "LoadTemperature": 75
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "Lian Li/Controller_0 _Channel_0",
+        "IsHidden": false,
+        "Name": "Uni Controller #1 Ch. 1",
+        "NickName": "Lian Li Uni Controller #1 Ch. 1 - Intake Side Fans"
+      },
+      {
+        "Identifier": "Lian Li/Controller_0 _Channel_1",
+        "IsHidden": false,
+        "Name": "Uni Controller #1 Ch. 2",
+        "NickName": "Lian Li Uni Controller #1 Ch. 2 - Intake Bottom Fans"
+      },
+      {
+        "Identifier": "Lian Li/Controller_0 _Channel_2",
+        "IsHidden": false,
+        "Name": "Uni Controller #1 Ch. 3",
+        "NickName": "Uni Controller #1 Ch. 3"
+      },
+      {
+        "Identifier": "Lian Li/Controller_0 _Channel_3",
+        "IsHidden": false,
+        "Name": "Uni Controller #1 Ch. 4",
+        "NickName": "Uni Controller #1 Ch. 4"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
+        "IsHidden": false,
+        "Name": "Fan 1 - NVIDIA GeForce RTX 3080",
+        "NickName": "NVIDIA GeForce RTX 3080 - Outer Fans"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
+        "IsHidden": false,
+        "Name": "Fan 2 - NVIDIA GeForce RTX 3080",
+        "NickName": "NVIDIA GeForce RTX 3080 - Inner Fans"
+      },
+      {
+        "Identifier": "NzxtKrakenPlugin/pumprpm-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "Name": "Pump - Kraken",
+        "NickName": "Pump - Kraken"
+      },
+      {
+        "Identifier": "NzxtKrakenPlugin/fanrpm-207D1DD0074DE95B9120D6A1FAD8CA10",
+        "IsHidden": false,
+        "Name": "Fan - Kraken",
+        "NickName": "Fan - Kraken"
+      }
+    ],
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF725B8A",
+    "SecondaryColor": "#FF5D967E",
+    "SelectedTheme": "Dark",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": false,
+    "SyncTrayIconColorWithWindows": false,
+    "TemperatureSensors": [],
+    "TrayIconColor": "#FF000000",
+    "TrayIcons": []
+  }
+}
